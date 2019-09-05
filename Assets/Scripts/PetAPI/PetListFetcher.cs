@@ -31,13 +31,19 @@ public class PetListFetcher : MonoBehaviour {
     [Header("Response")]
 
     [SerializeField]
-    public PetList _petList;
+    private PetList _petList;
+    public PetList PetList => _petList;
+
+    public GameEvent OnEmptySearchResults;
+
+    private Action _onErrorHandler;
 
     private void Awake() {
         _petList = ScriptableObject.CreateInstance<PetList>();
     }
 
-    void Start() {
+    public void Fetch(Action onErrorHandler = null) {
+        _onErrorHandler = onErrorHandler;
         StartCoroutine(RequestRoutine(GetRequestUrl(), PetListResponseCallback));
     }
 
@@ -78,6 +84,11 @@ public class PetListFetcher : MonoBehaviour {
         _petList.Pets = new List<Pet>();
         _petList.TotalPets = listRepsonse.TotalPets;
         _petList.ReturnedExactMatches = listRepsonse.ReturnedExactMatches;
+
+        if (listRepsonse.Pets == null || listRepsonse.Pets.Length == 0) {
+            _onErrorHandler?.Invoke();
+            return;
+        }
 
         for (int i = 0; i < listRepsonse.Pets.Length; i++) {
             if (listRepsonse.Pets[i].DetailsUrl.Length > 0) {
