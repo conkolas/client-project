@@ -8,5 +8,5 @@ public class PetListResponse {
     public int ReturnedExactMatches;
 
     [JsonProperty("pets")]
-    public Pet[] Pets;
+    public PetData[] PetsData;
 }

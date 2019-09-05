@@ -5,5 +5,5 @@ public class PetList : ScriptableObject {
     public int TotalPets;
     public int ReturnedExactMatches;
     [SerializeField]
-    public List<Pet> Pets;
+    public List<PetData> Pets;
 }

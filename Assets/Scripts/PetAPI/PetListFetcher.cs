@@ -34,16 +34,18 @@ public class PetListFetcher : MonoBehaviour {
     private PetList _petList;
     public PetList PetList => _petList;
 
-    public GameEvent OnEmptySearchResults;
+    private PetListResponse _currentPetListResponse;
 
     private Action _onErrorHandler;
+    private Action _onSuccessHandler;
 
     private void Awake() {
         _petList = ScriptableObject.CreateInstance<PetList>();
     }
 
-    public void Fetch(Action onErrorHandler = null) {
+    public void Fetch(Action onSuccessHandler = null, Action onErrorHandler = null) {
         _onErrorHandler = onErrorHandler;
+        _onSuccessHandler = onSuccessHandler;
         StartCoroutine(RequestRoutine(GetRequestUrl(), PetListResponseCallback));
     }
 
@@ -79,20 +81,20 @@ public class PetListFetcher : MonoBehaviour {
      * More info about specifc pet is fetch using detailsUrl
      */
     private void PetListResponseCallback(string response) {
-        PetListResponse listRepsonse = JsonConvert.DeserializeObject<PetListResponse>(response);
+        _currentPetListResponse = JsonConvert.DeserializeObject<PetListResponse>(response);
 
-        _petList.Pets = new List<Pet>();
-        _petList.TotalPets = listRepsonse.TotalPets;
-        _petList.ReturnedExactMatches = listRepsonse.ReturnedExactMatches;
+        _petList.Pets = new List<PetData>();
+        _petList.TotalPets = _currentPetListResponse.TotalPets;
+        _petList.ReturnedExactMatches = _currentPetListResponse.ReturnedExactMatches;
 
-        if (listRepsonse.Pets == null || listRepsonse.Pets.Length == 0) {
+        if (_currentPetListResponse.PetsData == null || _currentPetListResponse.PetsData.Length == 0) {
             _onErrorHandler?.Invoke();
             return;
         }
 
-        for (int i = 0; i < listRepsonse.Pets.Length; i++) {
-            if (listRepsonse.Pets[i].DetailsUrl.Length > 0) {
-                StartCoroutine(RequestRoutine(listRepsonse.Pets[i].DetailsUrl, PetResponseCallback));
+        for (int i = 0; i < _currentPetListResponse.PetsData.Length; i++) {
+            if (_currentPetListResponse.PetsData[i].DetailsUrl.Length > 0) {
+                StartCoroutine(RequestRoutine(_currentPetListResponse.PetsData[i].DetailsUrl, PetResponseCallback));
             }
         }
     }
@@ -102,6 +104,10 @@ public class PetListFetcher : MonoBehaviour {
      */
     private void PetResponseCallback(string response) {
         PetResponse petRepsonse = JsonConvert.DeserializeObject<PetResponse>(response);
-        _petList.Pets.Add(petRepsonse.Pet);
+        _petList.Pets.Add(petRepsonse.PetData);
+
+        if (_petList.Pets.Count == _currentPetListResponse.PetsData.Length) {
+            _onSuccessHandler?.Invoke();
+        }
     }
 }

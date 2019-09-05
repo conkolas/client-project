@@ -13,9 +13,20 @@ public class SearchFormManager : MonoBehaviour {
     public TMP_Text EmptySearchMessage;
     public PetListFetcher PetListFetcher;
 
+    [Header("Pagination")]
+    public int EndIndex = 10;
+    public int StartIndex = 1;
+
+    [Header("Events")]
+    public GameEvent OnSearchError;
+    public GameEvent OnSearchSuccess;
+
     public void Search() {
         EmptySearchMessage.gameObject.active = false;
+
         PetListFetcher.PostCode = PostalCodeInput.text;
+        PetListFetcher.EndNumber = EndIndex;
+        PetListFetcher.StartNumber = StartIndex;
 
         switch (RadiusDropdown.value) {
             case 0:
@@ -41,14 +52,18 @@ public class SearchFormManager : MonoBehaviour {
             PetListFetcher.Species = PetSpecies.CAT;
         }
 
-        PetListFetcher.Fetch(OnEmptyHandler);
+        PetListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
     }
 
     public void Validate() {
-        SearchButton.interactable = PostalCodeInput.text.Length > 4;
+        SearchButton.interactable = PostalCodeInput.text.Length > 3;
     }
 
-    private void OnEmptyHandler() {
-        EmptySearchMessage.gameObject.active = true;
+    private void OnSuccessHandler() {
+        OnSearchSuccess.Raise();
+    }
+
+    private void OnErrorHandler() {
+        OnSearchError.Raise();
     }
 }
