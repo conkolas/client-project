@@ -2,5 +2,5 @@
 
 public class PetResponse {
     [JsonProperty("pet")]
-    public Pet Pet;
+    public PetData PetData;
 }
