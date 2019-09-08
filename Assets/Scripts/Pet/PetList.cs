@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Pet/Pet list")]
 public class PetList : ScriptableObject {
-    public int TotalPets;
-    public int ReturnedExactMatches;
     [SerializeField]
-    public List<PetData> Pets;
+    public List<Pet> Pets;
 }

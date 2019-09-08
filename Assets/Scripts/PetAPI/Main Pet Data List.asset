@@ -1,0 +1,435 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375874968ac074cb3957a1dfdf20c352, type: 3}
+  m_Name: Main Pet Data List
+  m_EditorClassIdentifier: 
+  TotalPets: 121
+  ReturnedExactMatches: 15
+  Pets:
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Border Collie
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Sweet miss Gypsy. She is a 6 year old Border collie who could snuggle
+      for hours. She enjoys taking walks and is a very good in her kennel! She would
+      be a better fit in a home with older children as she likes to be in the middle
+      of it all. She is looking for someone to show her attention and she will be
+      so happy
+    PetCode: 
+    PetID: 24665996
+    PetName: Gypsy
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Great Pyrenees
+    SecondaryBreed: German Shepherd Dog
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: White - With Tan, Yellow Or Fawn
+    ContactPerson: 
+    Description: 
+    PetCode: 
+    PetID: 24183116
+    PetName: Keanu
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brown/Chocolate - With Tan
+    ContactPerson: Dale Hanna
+    Description: "I have been here a very long time. Humans see me and are scared.
+      They say it is because I am a pit bull mix. I rub up against them and give them
+      by biggest smile. I love when they talk to me. I just want to be close to them.</p><p>My
+      favorite things to do are cuddle and chill on the couch watching movies with
+      you. I am 2 years old. </p><p>I like it when there is just me and one human.
+      I am a loner and don\xE2\x80\x99t like other cats and dogs much. I am a good
+      boy and don\xE2\x80\x99t bark a lot. Please help me find a home."
+    PetCode: 
+    PetID: 24677758
+    PetName: Dixon
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Red/Golden/Orange/Chestnut - With White
+    ContactPerson: 
+    Description: 
+    PetCode: 
+    PetID: 26379093
+    PetName: Jerzey
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: Border Collie
+    Age: Puppy
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: 
+    Description: Hi Im FINN!! I am a sweet curious little guy who loves to play my
+      days away. I am looking for a family who will help me in learning my commands.
+      I also will need help in leash training. I am about 10 weeks old mixed with
+      Heeler, Rat Terrier, Border Collie and German Shepard. I am a lover and give
+      good kisses.
+    PetCode: 
+    PetID: 25611341
+    PetName: Finn
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Cattle Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: Dya is a shy girl who takes a little bit of time to warm up to you.
+      She is a silly girl once she breaks her shyness. Dya has a case of the zoomies
+      and will spin circles around you. She enjoys her daily walks and romps in the
+      yard. She has become quite the snuggler. She would be good in a home with children
+      as she lights up when kids come to visit. She will also be a good watch dog
+      and tell you when someone is at the door. If you are interested in Dya, you
+      will have to come spend some time with her so she can build a trust with you.
+      She knows how to sit pretty, shake and lay down. She will also dance on her
+      hind legs for a treat.
+    PetCode: 
+    PetID: 25611411
+    PetName: Dya
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tan/Yellow/Fawn - With Black
+    ContactPerson: Dale Hanna
+    Description: 
+    PetCode: 
+    PetID: 24677610
+    PetName: Brandy
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Gray/Blue/Silver/Salt & Pepper
+    ContactPerson: 
+    Description: Cinder loves long walks and to sit in your lap. We are guessing she
+      is about 4 yrs old. She is very sweet!
+    PetCode: 
+    PetID: 25535477
+    PetName: Cinder
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Luna is a special girl to us, see she is a tad different but that
+      is what makes her so unique and wonderful! She is a young girl at about 2 years
+      old, just freshly considered an adult with a teenager attitude and a toddlers
+      get up and go play style. This girl is a tall, slender and muscular girl who
+      needs an active family or a job to do to keep her energy manageable, she strives
+      to please you. When she is not chewing on a bone, running around the yard, begging
+      you to take her on a walk (and yes she will carry her leash around the house
+      until you take her!) Lu likes her stuffed unicorn, which will go to her new
+      home with her, she carries it everywhere she can and sleeps with it in her kennel.
+      We do not know her past as she was a rescue transfer after being pulled out
+      of a kill shelter, we aren't bothered by not knowing her past because we know
+      her present and future are a warm, cozy and forever loved one. <br>This sweet
+      girl is good with kids and loves to clean their faces after they make a mess
+      from lunch snacks. Due to her play style and her size/strength she may knock
+      small ones that are unsteady on their feet down unintentionally. Being dog selective
+      makes it a little more difficult for playdates but her preferences are set,
+      meaning we will NOT place her in a home that does not take dog selective dog
+      seriously and understand to the fullest she may not get along with a particular
+      dog. We are unsure of cats but the small amount of time she has shown her foster
+      parents that she is too curious about small critters to make us comfortable
+      enough to place her in a home with one. If you are a fun, outgoing, active family
+      then Luna is your girl!
+    PetCode: 
+    PetID: 20685707
+    PetName: Luna
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Boxer
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: Sweet Marcella, she is perfect in every way it is a shock how she
+      is not only still with us but has never had genuine interest in making her a
+      forever family member. She is fully house trained and crate trained so no messes,
+      minus the here and theres she may have while adjusting. She does great with
+      other dogs and cats are no mind for her. Children, oh gosh, kids are her forte
+      like they are her personal ones, even though she has never had a litter. If
+      you want a girl who would love time to run off energy, a girl who wants to be
+      the princess in your castle she is awaiting for her king and queen to find her!
+    PetCode: 
+    PetID: 18515186
+    PetName: Marcella
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: 
+    Description: Bandit is looking for a great family to take and adventure with!
+      He has been a sweet boy since coming to us and is ready for a new start!
+    PetCode: 
+    PetID: 25816594
+    PetName: Bandit
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Australian Shepherd
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Merle
+    ContactPerson: 
+    Description: Gunner is a sweet 3 yr old girl who loves to run, enjoys her romps
+      around the yard and walking with our volunteers. She is kennel/house trained
+      and will greet you with a big smile and a little jump. She has a high prey drive
+      so a home with small animals is a no go. We are still testing her with other
+      dogs to see how she fairs with them so as of right now a home with no other
+      dogs would be best. <br>Gunner is very active and would do well in a home with
+      children and a family that has the patience and knowledge for a dog who may
+      be hard of hearing. We have done a few tests and the lower pitched sounds she
+      seems to either ignore or does not hear. Gunner girl will be spayed before an
+      adoption takes place.
+    PetCode: 
+    PetID: 25535438
+    PetName: Gunner
+    Purebred: 1
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: Shepherd (Unknown Type)
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brown/Chocolate
+    ContactPerson: Dale Hanna
+    Description: Our Sweet BREEZE is also still waiting for her forever home and family
+      !! This girl just loves people and was so excited to get the attention and to
+      get out in the snow to play, that she didn't care what we put on her to wear.
+      Ha ha !! Breeze loves people and we would love to see her on a farm or a country
+      home / acreage. She has had to be independent in her short life that we would
+      love to see her have the freedom to roam and explore. Once she knew this was
+      her new home and had people to love and care for her, we are sure she would
+      stay close by. Breeze is a spay, one and a half year old Chocolate Lab cross
+      Shepherd female. If you would like to come and meet her and spend some time
+      with her, she is at the rescue in Gregory, SD 605-835-8780
+    PetCode: 
+    PetID: 24677445
+    PetName: Breeze
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Mixed Breed (Medium)
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Fit Bit originally came from Chicago as a confiscation when he was
+      found with 3 other dogs containing bite wounds. Mr Bit was awarded to the city
+      after being held as owners prisoner for unknown amount of time. He enjoys rolling
+      in the grass and loves nothing more to chase the ball and then watch it stay
+      still, he hasn't mastered bringing it back yet. He is so loving and can be quite
+      the attention hog and loves all other dogs he has met so far. He still has some
+      learning to do with proper play etiquette. He plays like a 6 week old puppy
+      in a full grown body at times. Fun and love is his middle namr, he also likes
+      to stay active! Fit Bit is looking for a home with older kids, his excitement
+      will knock small ones over. We haven't tested him with cats so it is unknown
+      how he would do.
+    PetCode: 
+    PetID: 23076532
+    PetName: Fit Bit
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shorthaired Pointer
+    SecondaryBreed: Labrador Retriever
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: This fireball is the sweetest dog you could ever ask for. She will
+      be 3 in October and has a lot of puppy left in her. She loves children and jumping
+      on the trampoline with them. She is learning her leash manners, loves to walk
+      and go running. She is quick to catching on to commands. She does know how to
+      sit and stay. She is looking for an active family who will include her in all
+      their activities. She loves water as you can see her dipping her paws in the
+      water bucket in one of the posted pics.  Awnie will be spayed before an adoption
+      takes place.  If you feel Awnie would make a great addition to your family give
+      us a call at 402-336-5435.
+    PetCode: 
+    PetID: 25534965
+    PetName: Awnie
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 

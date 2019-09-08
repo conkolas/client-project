@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Newtonsoft.Json;
 
 [Serializable]
@@ -25,5 +26,5 @@ public class PetData {
     [JsonProperty("purebred")] public string Purebred;
     [JsonProperty("website_url")] public string WebsiteUrl;
     [JsonProperty("details_url")] public string DetailsUrl;
-    [JsonProperty("images")] public ImageResponse[] Images;
+    [JsonProperty("large_results_photo_url")] public string PhotoUrl;
 }
