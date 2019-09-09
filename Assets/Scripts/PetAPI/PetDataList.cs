@@ -6,7 +6,7 @@ public class PetDataList : ScriptableObject {
     public int TotalPets;
     public int ReturnedExactMatches;
     [SerializeField]
-    public List<PetData> Pets;
+    public PetData[] Pets;
     [SerializeField]
-    public List<Texture2D> PhotoTextures;
+    public Texture2D[] PhotoTextures;
 }

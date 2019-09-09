@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections;
-using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -42,7 +41,7 @@ public class PetDataListFetcher : MonoBehaviour {
     public void Fetch(Action onSuccessHandler = null, Action onErrorHandler = null) {
         _onErrorHandler = onErrorHandler;
         _onSuccessHandler = onSuccessHandler;
-        StartCoroutine(RequestRoutine(GetRequestUrl(), PetListResponseCallback));
+        StartCoroutine(RequestRoutine(0, GetRequestUrl(), PetListResponseCallback));
     }
 
     /*
@@ -62,7 +61,7 @@ public class PetDataListFetcher : MonoBehaviour {
     /*
      * Sends GET request to provided url and calls a callback action with a response string
      */
-    private static IEnumerator RequestRoutine(string url, Action<string> callback = null) {
+    private static IEnumerator RequestRoutine(int index, string url, Action<int, string> callback = null) {
         using (UnityWebRequest request = UnityWebRequest.Get(url)) {
             yield return request.SendWebRequest();
             if (request.isNetworkError || request.isHttpError)
@@ -71,12 +70,12 @@ public class PetDataListFetcher : MonoBehaviour {
             }
             else
             {
-                callback?.Invoke(request.downloadHandler.text);
+                callback?.Invoke(index, request.downloadHandler.text);
             }
         }
     }
 
-    private static IEnumerator RequestTexture(string url, Action<Texture2D> callback = null)
+    private static IEnumerator RequestTexture(int index, string url, Action<int, Texture2D> callback = null)
     {
         using (UnityWebRequest request = UnityWebRequestTexture.GetTexture(url))
         {
@@ -90,7 +89,7 @@ public class PetDataListFetcher : MonoBehaviour {
             {
                 Texture2D texture = DownloadHandlerTexture.GetContent(request);
                 if (texture != null) {
-                    callback?.Invoke(texture);
+                    callback?.Invoke(index, texture);
                 }
             }
         }
@@ -100,40 +99,43 @@ public class PetDataListFetcher : MonoBehaviour {
      * Fetches pet list data
      * More info about specifc pet is fetch using detailsUrl
      */
-    private void PetListResponseCallback(string response) {
+    private void PetListResponseCallback(int index, string response) {
         _currentPetDataListResponse = JsonConvert.DeserializeObject<PetDataListResponse>(response);
 
-        _petDataList.Pets = new List<PetData>();
-        _petDataList.PhotoTextures = new List<Texture2D>();
         _petDataList.TotalPets = _currentPetDataListResponse.TotalPets;
         _petDataList.ReturnedExactMatches = _currentPetDataListResponse.ReturnedExactMatches;
+        _petDataList.Pets = new PetData[_currentPetDataListResponse.ReturnedExactMatches];
+        _petDataList.PhotoTextures = new Texture2D[_currentPetDataListResponse.ReturnedExactMatches];
 
         if (_currentPetDataListResponse.PetsData == null || _currentPetDataListResponse.PetsData.Length == 0) {
             _onErrorHandler?.Invoke();
             return;
         }
 
-        foreach (var pet in _currentPetDataListResponse.PetsData) {
+        for (var i = 0; i < _currentPetDataListResponse.PetsData.Length; i++) {
+            var pet = _currentPetDataListResponse.PetsData[i];
             if (pet.DetailsUrl.Length <= 0) continue;
-            StartCoroutine(RequestTexture(pet.PhotoUrl, PetPhotoResponseCallback));
-            StartCoroutine(RequestRoutine(pet.DetailsUrl, PetResponseCallback));
+
+            // @TODO fix order
+            StartCoroutine(RequestTexture(i, pet.PhotoUrl, PetPhotoResponseCallback));
+            StartCoroutine(RequestRoutine(i, pet.DetailsUrl, PetResponseCallback));
         }
     }
 
     /*
      * Deserializes pet specific information and adds to result list
      */
-    private void PetResponseCallback(string response) {
+    private void PetResponseCallback(int index, string response) {
         PetResponse petRepsonse = JsonConvert.DeserializeObject<PetResponse>(response);
-        _petDataList.Pets.Add(petRepsonse.PetData);
+        _petDataList.Pets[index] = petRepsonse.PetData;
 
         if (IsFetchCompleted()) {
             _onSuccessHandler?.Invoke();
         }
     }
 
-    private void PetPhotoResponseCallback(Texture2D texture) {
-        _petDataList.PhotoTextures.Add(texture);
+    private void PetPhotoResponseCallback(int index, Texture2D texture) {
+        _petDataList.PhotoTextures[index] = texture;
 
         if (IsFetchCompleted()) {
             _onSuccessHandler?.Invoke();
@@ -141,7 +143,19 @@ public class PetDataListFetcher : MonoBehaviour {
     }
 
     private bool IsFetchCompleted() {
-        return _petDataList.Pets.Count == _currentPetDataListResponse.PetsData.Length &&
-               _petDataList.PhotoTextures.Count == _currentPetDataListResponse.PetsData.Length;
+        bool isPetsCompleted = true;
+        bool isPhotosCompleted = true;
+
+        for (int i = 0; i < _petDataList.Pets.Length; i++) {
+            if (_petDataList.Pets[i] == null) {
+                isPetsCompleted = false;
+            }
+
+            if (_petDataList.PhotoTextures[i] == null) {
+                isPhotosCompleted = false;
+            }
+        }
+
+        return isPhotosCompleted && isPetsCompleted;
     }
 }

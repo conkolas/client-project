@@ -26,10 +26,8 @@ public class Pet : MonoBehaviour {
         _size = petData.Size;
         _photo = petPhoto;
 
-        Material petMaterial = new Material(DefaultMaterial.shader);
+        Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
         GetComponent<MeshRenderer>().material = petMaterial;
-
-        petMaterial.color = GetPetColor();
         transform.localScale = GetPetSize();
     }
 
@@ -43,7 +41,7 @@ public class Pet : MonoBehaviour {
             petColor = UnityEngine.Color.white;
         } else if (_color.Contains("Gray")) {
             petColor = UnityEngine.Color.gray;
-        } else if (_color.Contains("Yellow")) {
+        } else if (_color.Contains("Yellow") || _color.Contains("Gold")) {
             petColor = UnityEngine.Color.yellow;
         } else if (_color.Contains("Brown")) {
             petColor = new Color(205,133,63,1);
