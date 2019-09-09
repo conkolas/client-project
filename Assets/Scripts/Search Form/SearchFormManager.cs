@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,7 +9,7 @@ public class SearchFormManager : MonoBehaviour {
     public Toggle CatToggle;
     public Button SearchButton;
     public TMP_Text EmptySearchMessage;
-    public PetListFetcher PetListFetcher;
+    public PetDataListFetcher PetDataListFetcher;
 
     [Header("Pagination")]
     public int EndIndex = 10;
@@ -21,40 +19,40 @@ public class SearchFormManager : MonoBehaviour {
     public GameEvent OnSearchError;
     public GameEvent OnSearchSuccess;
 
+    /*
+     * Applies values to PetListFetch from search form fields and fetches new data
+     */
     public void Search() {
         EmptySearchMessage.gameObject.active = false;
 
-        PetListFetcher.PostCode = PostalCodeInput.text;
-        PetListFetcher.EndNumber = EndIndex;
-        PetListFetcher.StartNumber = StartIndex;
+        PetDataListFetcher.PostCode = PostalCodeInput.text;
+        PetDataListFetcher.EndNumber = EndIndex;
+        PetDataListFetcher.StartNumber = StartIndex;
 
-        switch (RadiusDropdown.value) {
-            case 0:
-                PetListFetcher.Range = SearchRanges.TWENTY_FIVE;
-                break;
-            case 1:
-                PetListFetcher.Range = SearchRanges.FIFTY;
-                break;
-            case 2:
-                PetListFetcher.Range = SearchRanges.HUNDRED;
-                break;
-            case 3:
-                PetListFetcher.Range = SearchRanges.HUNDRED_FIFTY;
-                break;
-            case 4:
-                PetListFetcher.Range = SearchRanges.TWO_HUNDREDS;
-                break;
+        if (RadiusDropdown.value == 0)
+            PetDataListFetcher.Range = SearchRanges.TWENTY_FIVE;
+        else if (RadiusDropdown.value == 1) {
+            PetDataListFetcher.Range = SearchRanges.FIFTY;
+        } else if (RadiusDropdown.value == 2) {
+            PetDataListFetcher.Range = SearchRanges.HUNDRED;
+        } else if (RadiusDropdown.value == 3) {
+            PetDataListFetcher.Range = SearchRanges.HUNDRED_FIFTY;
+        } else if (RadiusDropdown.value == 4) {
+            PetDataListFetcher.Range = SearchRanges.TWO_HUNDREDS;
         }
 
         if (DogToggle.isOn && !CatToggle.isOn) {
-            PetListFetcher.Species = PetSpecies.DOG;
+            PetDataListFetcher.Species = PetSpecies.DOG;
         } else {
-            PetListFetcher.Species = PetSpecies.CAT;
+            PetDataListFetcher.Species = PetSpecies.CAT;
         }
 
-        PetListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
+        PetDataListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
     }
 
+    /*
+     * Toggles search button active when postal code is sufficient length
+     */
     public void Validate() {
         SearchButton.interactable = PostalCodeInput.text.Length > 3;
     }

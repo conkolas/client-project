@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-public class PetListResponse {
+public class PetDataListResponse {
     [JsonProperty("total_pets")]
     public int TotalPets;
 
