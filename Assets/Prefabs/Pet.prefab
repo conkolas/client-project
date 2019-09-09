@@ -13,7 +13,9 @@ GameObject:
   - component: {fileID: 6639848210501656348}
   - component: {fileID: 6639848210501656349}
   - component: {fileID: 6639848210501656345}
+  - component: {fileID: 5671597027329263770}
   - component: {fileID: 8516922825390727420}
+  - component: {fileID: 4808167865178727398}
   m_Layer: 0
   m_Name: Pet
   m_TagString: Untagged
@@ -110,6 +112,28 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!195 &5671597027329263770
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639848210501656350}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 1
+  m_Speed: 3
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.4
+  m_WalkableMask: 5
+  m_ObstacleAvoidanceType: 4
 --- !u!114 &8516922825390727420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,3 +147,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DefaultMaterial: {fileID: 2100000, guid: 4ca5f986753354a438641a2142892fee, type: 2}
+  DefaultColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  DefaultScale: {x: 1, y: 1, z: 1}
+--- !u!114 &4808167865178727398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639848210501656350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1826fe4b52594358844a3760f806eff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentState: {fileID: 11400000, guid: 41681936408a74d27944b511c496b0d4, type: 2}
+  PlayGroundTransform: {fileID: 5588888896229029305, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
+    type: 3}
+  WaypointRadius: 2.5
+  DisplayRadius: 0.1
+  WaypointDebug: 0
