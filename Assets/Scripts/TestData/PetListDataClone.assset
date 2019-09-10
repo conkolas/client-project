@@ -1,0 +1,3444 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375874968ac074cb3957a1dfdf20c352, type: 3}
+  m_Name: PetListDataClone
+  m_EditorClassIdentifier: 
+  TotalPets: 117
+  ReturnedExactMatches: 100
+  Pets:
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Rat Terrier
+    SecondaryBreed: 
+    Age: Puppy
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Royal is a sweet little guy looking for a home. He enjoys to play
+      and explore. Royal is here because owner has too many animals. <br />$165.00  Fee
+      includes initial vaccines, worming, microchip with registration, free vet health
+      exam and spay/ neuter discount.<br> Primary Color: Tan<br> Secondary Color:
+      White<br> Weight: 5.5<br> Age: 0yrs 0mths 9wks'
+    PetCode: 10034
+    PetID: 26404147
+    PetName: Royal
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: Australian Cattle Dog
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Meet Oreo he is a 3 year old neutered male heeler mix.  He is neutered,
+      utd with all vaccines and heartworm negative. He is housebroken crate trained
+      and loves to play with all other housedogs. He loves everyone and going for
+      long walks. He also loves Starbucks and whipped cream. Oreo would be great in
+      a home without cats, but fine with kids and other dogs. Contact his foster Sharon<br>1
+      (563) 320-9769
+    PetCode: 
+    PetID: 26316436
+    PetName: Oreo
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 26232061
+    PetName: Venus
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: Staffordshire Bull Terrier
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Gray/Blue/Silver/Salt & Pepper
+    ContactPerson: 
+    Description: My name is Ms. Molly. I am super sweet and calm. At one time I was
+      loved and family dog until I was given away. I wound up lost and no one came
+      to find me. I love to play in the yard, I zoom around like a boomerang. I lounge
+      in the sun and really I am no bother to anyone. I am definitely a family dog
+      with kids of any age. All I want is a home again, like I used to have. Sadly,
+      I cannot go to just any home. My new home has to be outside the Sioux City limits.
+      See I am not allowed there and I am not quite sure why?!? Please potential adopter
+      looking for a rescue dog, please will you give me a second chance?
+    PetCode: 
+    PetID: 26194058
+    PetName: Molly
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Beagle
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Joey is a sweet boy who is looking for his forever home. He is neutered
+      and good with older kids. Intro''s to cats will be needed. He likes to go on
+      walks and would love to lay next to you and keep you company. He is here because
+      he was not good with the young children in the home.<br />$95.00  Fee includes
+      initial vaccines, worming, microchip with registration, free vet health exam
+      and spay/ neuter discount.<br> Primary Color: Black Brown<br> Secondary Color:
+      White<br> Weight: 8.375<br> Age: 7yrs 0mths 0wks'
+    PetCode: 10060
+    PetID: 26398749
+    PetName: Joey
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Husky
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: White
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 25907892
+    PetName: Odin
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Red/Golden/Orange/Chestnut - With White
+    ContactPerson: 
+    Description: Myles is my name and playing is my game! You know how special red-heads
+      are? We are a unique bunch. I am an active companion. I love to exercise and
+      would be best if my human companion did too. I am young and have a lot to live
+      and eager to learn more and more. I would like my new human to be able to take
+      me to school as I am a quick learner and am getting better at my commands. I
+      think I may even graduate top of the class and make you proud. I am a compact,
+      medium-sized bundle of love. Hey, I can only be adopted to a home outside Sioux
+      City limits. They have this silly ban there and dogs like me cannot live there.
+      I am hoping they change that soon! Hope to meet you soon, human.
+    PetCode: 
+    PetID: 26316475
+    PetName: Myles
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brindle
+    ContactPerson: Nola Briggs
+    Description: This is Diesel, and we think the name fits. Diesel has been here
+      about a month and a half and is doing well. He has a very handsome grey brindle
+      coat and loves people. He has done good so far, around other dogs, but he will
+      need some more testing before we know for sure.<br>Diesel is around a year of
+      age and has had all his vaccinations, etc. He is on the list to be neutered
+      soon.<br>If you love his breed, you will love Diesel. Call if interested 402-846-5100.<br>You
+      might notice, he was just interested in puppy, not aggressive.
+    PetCode: 
+    PetID: 23324325
+    PetName: Diesel
+    Purebred: 1
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: My name is Manny. I used to have a best friend that took care of
+      me but then he left me with someone else who abandoned me because they were
+      moving and I could not go with them. At one time I was an important part of
+      someones life, and then sadly I was neglected and now homeless. I need someone
+      to save me that lives outside the Sioux City limits. See, I am not allowed there
+      and I still cannot figure out why?!? But either way, I believe I deserve a chance
+      in life, my second chance. I am spunky at times and mellow at times. I like
+      to play and I walk well on a leash. Oh yeah, and I am adorable!! Thank you for
+      reading about me. Please if you would like to meet me please hurry.
+    PetCode: 
+    PetID: 26193948
+    PetName: Manny
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: Pointer
+    Age: Puppy
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Red/Golden/Orange/Chestnut
+    ContactPerson: 
+    Description: "Hi I\xE2\x80\x99m Peddle. I\xE2\x80\x99m just a playful pup looking
+      for a furever home. I am starting to learn my doggie manners and I need my human
+      companion to help keep that up. I\xE2\x80\x99m an active pup always wanting
+      to play and go for a walk. I need to go to a home outside the Sioux City limits
+      because I\xE2\x80\x99m not allowed there. I have so much life ahead of me and
+      really want to spend it with my new best friend, you! I am great with other
+      dogs and love playing with my toys."
+    PetCode: 
+    PetID: 26202995
+    PetName: Peddle
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: Mixed Breed (Medium)
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Tan/Yellow/Fawn - With Black
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 26217313
+    PetName: Wes
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: Cane Corso
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Gray/Silver/Salt & Pepper - With Black
+    ContactPerson: 
+    Description: Samson Strong is what they named me. I am a BIG goofy pup who needs
+      a good leader that I can follow. All I want to do is please, which is typical
+      of my breed. I want someone who has time for me. I am learning my doggie manners
+      and would like someone to keep up my training. I love to learn!! I would be
+      a perfect running partner! Exercise for me is a must, after all I have to keep
+      up my boyish figure. I am probably best in a home with older kids. Oh and I
+      forgot, I can only be adopted out to a home outside the Sioux City limits. I
+      know I am cute (I mean seriously!) Please will you help my dreams come true
+      and give me a second chance at life?
+    PetCode: 
+    PetID: 26194200
+    PetName: Samson
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Australian Cattle Dog
+    SecondaryBreed: German Shepherd Dog
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brown/Chocolate - With Black
+    ContactPerson: Nola Briggs
+    Description: 'Alice is a friendly, young and loving doggie. She does great with
+      male dogs, and hasn''t had the opportunity to be with females yet.<br>Alice
+      came here with 6 puppies and now all are adopted and she has been spayed. Alice
+      has one beautiful blue eye which makes us think she either has Husky or Australian
+      Cattle dog in her background. She is a year in age and would make a great family
+      dog. She has lots of energy, but can relax with you too.<br>Call if interested
+      in Alice. 402-846-5100.UPDATE:  Alice has been here since last summer.  She
+      is tired of waiting for her family.  She loves people, and would be a great
+      family dog to take camping or fishing.  She just needs an opportunity!'
+    PetCode: 
+    PetID: 23324409
+    PetName: Alice
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Black and Tan Coonhound
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With Brown, Red, Golden, Orange Or Chestnut
+    ContactPerson: Nola Briggs
+    Description: Where do I start describing a coon hound?  Well this one is a beautiful
+      black and Tan Coon hound close to 2 years old.  Her name is Harley and she is
+      looking for a family.  She has gained some, but still thin and loves her food.  She
+      is on the list for her spaying in the near future, unless her new owner wants
+      to take on that responsibility.  Her adoption cost will then reflect a discount.<br>Harley
+      gets along fine with large male dogs, but we don't feel that she will do well
+      with other females.  So, having said that, being the only dog would probably
+      be best.<br>Harley is a sweet gal though and would make a good family pet.  She
+      hasn't had the opportunity for house training but being the smart gal that she
+      is, it shouldn't take long.<br>Call if interested   402-846-5100
+    PetCode: 
+    PetID: 24760635
+    PetName: Harley
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: Mixed Breed (Medium)
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 26217303
+    PetName: Phoenix
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Hound (Unknown Type)
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: Nola Briggs
+    Description: Meet Marvin--that's his name for now. Beautiful dog with very handsome
+      markings.  Marvin was a surrender, and will be going to the Vet this week to
+      be neutered and complete the rest of his vaccinations. Just wanted you to meet
+      him in case he is just the right dog that you are looking for.  We are guessing
+      him at 12 months of age.  <br>He hasn't been here long, so getting to know more
+      about him.  Marvin is a large dog and I suspect a great running or jogging partner.  Call
+      402-846-5100 if interested.
+    PetCode: 
+    PetID: 18573065
+    PetName: Marvin
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 25874233
+    PetName: Sadie
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Boxer
+    SecondaryBreed: Pit Bull Terrier
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Tan/Yellow/Fawn - With White
+    ContactPerson: 
+    Description: Target is my name and playing fetch is my game! Hello, I am Target,
+      funny, goofy and ador-a-bull. I am your total family companion. I get very attached
+      to my humans so it would be pawsome if I had a family that were not gone a lot.
+      I am great with kids of all ages. My dream is to have a little boy or girl who
+      wants to play with me. They can throw the ball and I will always bring it back.
+      I love belly rubs and to give kisses. I am just a happy dog all around. Sadly,
+      I am not allowed in the Sioux City limits. I don't know why but I do no it is
+      a very silly reason. Please, if you are looking for a buddy, a best friend,
+      a dog for your family...look no further, Target here, I'm your boy!
+    PetCode: 
+    PetID: 26194122
+    PetName: Target
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Husky
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: White
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 26039654
+    PetName: Link
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: Bulldog
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: Hi my name is Montana Mushy. Mushy because I am silly and luv-a-bull.
+      My favorite thing ever is to play. I even like to play with other dogs too.
+      I am a sensitive boy probably because I was abandoned. I was failed and I really
+      want my second chance at life. I don't know why I was left behind because all
+      I do is make people smile.I am looking for a home outside the SIoux City limits.
+      See I am not allowed there, and I am not quite sure why?!? Please if you live
+      outside the city limits, please oh please will you open your home and heart
+      to me?
+    PetCode: 
+    PetID: 26193964
+    PetName: Montana Mushy
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Husky
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: Nola Briggs
+    Description: Oh my--April is such a beautiful Husky--and full of love and energy.  She
+      is waiting for a family that has the time and the love to share with her.  April
+      is almost a year old now and has been spayed and has all vaccinations.  She
+      is a very sweet dog and typical of most huskies has lots of energy.</p><p>April
+      isn't house trained yet, because she hasn't had the opportunity living in a
+      kennel.  She is very smart though and could be trained easily.  Because April
+      is a husky and the breed likes to roam---a big fenced in yard is a requirement.  Of
+      course even better would be a family that takes her for walks daily.</p><p>She
+      is around 40# and still growing.Call if you are interested in this beautiful
+      gal. 402-846-5100
+    PetCode: 
+    PetID: 24759031
+    PetName: April
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 51104
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Karma Rescue - Midwest
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Akita
+    SecondaryBreed: Border Collie
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brown/Chocolate - With White
+    ContactPerson: 
+    Description: Teddy here, as in Teddy Bear. I am your play buddy. Yep, I like to
+      walk, run, play ball, hike, and I love outdoor adventures...I am basically a
+      package of fun. I need a home where I can't climb a fence. Yes I can get over
+      a fence so I cannot go to a home that is going to keep me outdoors unattended.
+      But I am just fine inside next to you chilling out. My main breed is Akita which
+      means I am very loyal to my family and will be there for you always. I play
+      nicely with other dogs and I like kids too. Remember that teddy bear you loved
+      and hugged as a kid? Well I am that bear in dogs clothing.
+    PetCode: 
+    PetID: 26266044
+    PetName: Teddy
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Alaskan Malamute
+    SecondaryBreed: 
+    Age: Senior
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 25874345
+    PetName: Charlie
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Gray/Silver/Salt & Pepper - With White
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 25874470
+    PetName: Chunkers
+    Purebred: 1
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: Nola Briggs
+    Description: This is Jeremy---he is a young lab mix, close to a year of age. Jeremy
+      has had all his vaccinations and been neutered. He is a great looking lab with
+      another mix--maybe border collie thrown in. He is active and very handsome.  A
+      very handsome and sweet boy that needs some attention, love and some fun walks
+      and adventures with a forever family. These pictures were taken a few months
+      ago, and hope to have some more soon.  Call if interested 402-846-5100.
+    PetCode: 
+    PetID: 15996280
+    PetName: Jeremy
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: White - With Black
+    ContactPerson: Nola Briggs
+    Description: Julie is a beautiful young shepherd mix dog that is close a year
+      old.  Her coloring is very unique with a light cream on her upper torso, and
+      blending into black on her back.</p><p>Yes, Julie is unique in more than her
+      coloring--she has a serious hearing loss.  She is bright and intelligent and
+      we think she will be easily trainable with hand signals.</p><p>Julie has been
+      spayed and has all her vaccinations.  She needs a family that  is willing to
+      work with her and train her.</p><p>Call if you are serious about Julie and willing
+      to take the time to give her the time and training she needs.   402-846-5100
+    PetCode: 
+    PetID: 24600241
+    PetName: Julie
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: 
+    Description: Bandit is looking for a great family to take and adventure with!
+      He has been a sweet boy since coming to us and is ready for a new start!
+    PetCode: 
+    PetID: 25816594
+    PetName: Bandit
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Siberian Husky
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: White
+    ContactPerson: Nola Briggs
+    Description: 'Description of pet<br>What a gorgeous gal Elsa is! She is 4 years
+      old and has the most beautiful white coat to boot.<br>Elsa arrived here after
+      being in a shelter that euthanizes. Her friend Nico found his home--now it is
+      her turn.<br>Huskies are a different breed and many require special handling.
+      That is true with Elsa. A great house dog were were told, but huskies have a
+      tendency to roam and that is what she did. Elsa needs a family that fit all
+      the requirements and is knowledgeable about this breed.</p><p>We are hoping
+      to find a family that will work with Elsa and help give her the life she deserves.
+      Here is more more information about her.<br>Elsa has been spayed and has all
+      her vaccinations.</p><p>1. She will need a tall fenced in area. A privacy (wooden
+      fence would be the best). Or a large kennel<br>2. Elsa does not do well with
+      any small animals. So no puppies, cats, no farm animals at all.</p><p>HOWEVER,
+      SHE LOVES PEOPLE AND COULD BE A GREAT FAMILY DOG, FOR THE RIGHT FAMILY. Call
+      402-846-5100 if you can meet these requirements and know about Huskies/Malamutes.UPDATE:  She
+      went for a ride with Chuck on our 4wd Mule.  She had a wonderful time. He said
+      she loves to ride and just needs a family that can give her the love and attention
+      she craves.</p><p>Characteristics<br>-<br>Internal notes'
+    PetCode: 
+    PetID: 24758809
+    PetName: Elsa
+    Purebred: 1
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shar Pei
+    SecondaryBreed: Doberman Pinscher
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With Brown, Red, Golden, Orange Or Chestnut
+    ContactPerson: Nola Briggs
+    Description: Lover Boy! He has come so far since the first day here. He was full
+      of sores and bites, and looked like he had been used for a bait dog.  He was
+      very scared of us at first, but quickly grew to trust us and share his kisses.<br>Lover
+      boy is a unique looking guy--he is medium build, we are now thinking he may
+      be a Shar Pei miix, maybe with Doberman, because of his markings.<br>He needs
+      a family that can show him special love, attention and training. He should probably
+      be the only dog.   We believe he is over 5 years of age.<br>He really is a lover
+      boy, and I didn't give up on him.  Hoping that there is a family that will give
+      him just what he needs. He loves going for walks.<br>Did I tell you that when
+      we wags his tail, his whole body moves. Lover Boy is now    neutered and we
+      want a very special home for this boy. Photos soon<br>Call 402-846-5100 if you
+      are interested.
+    PetCode: 
+    PetID: 17390734
+    PetName: Lover Boy
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: Labrador Retriever
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: White
+    ContactPerson: Nola Briggs
+    Description: Tucker is a beautiful boy with a white coat and one blue eye.  He
+      is close to 10 or 11 months of age and has just been neutered and has all vaccinations.<br>He
+      came to the rescue as a surrender and is in great shape---looking for a family
+      to love!<br>Tucker has lab type hair and beautiful big ears as you can see in
+      the photo.  I think his young age is perfect for training. He could be a great
+      jogging buddy.</p><p>So, if you like the looks of Tucker, give us a call and
+      we can give you more information and set up a time for you to meet him.  402-846-5100
+    PetCode: 
+    PetID: 24600374
+    PetName: Tucker
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brown/Chocolate - With Tan
+    ContactPerson: Dale Hanna
+    Description: "I have been here a very long time. Humans see me and are scared.
+      They say it is because I am a pit bull mix. I rub up against them and give them
+      by biggest smile. I love when they talk to me. I just want to be close to them.</p><p>My
+      favorite things to do are cuddle and chill on the couch watching movies with
+      you. I am 2 years old. </p><p>I like it when there is just me and one human.
+      I am a loner and don\xE2\x80\x99t like other cats and dogs much. I am a good
+      boy and don\xE2\x80\x99t bark a lot. Please help me find a home."
+    PetCode: 
+    PetID: 24677758
+    PetName: Dixon
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brookings
+    AddressLine1: 120 West 2nd Street South
+    AddressLine2: 
+    AddressPostalCode: 57006
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Brookings Regional Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Beagle
+    SecondaryBreed: Shepherd (Unknown Type)
+    Age: Senior
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: 
+    Description: 'Bogie is a delightful, dapper almost 11 year old (birth date of
+      9-20-08) gentleman of a beagle mix.  True to his hound dog nature, he is a very
+      sweet boy and loves to adventure outdoors. He is friendly with men, women and
+      children (8+).  Bogie is house trained, walks very nicely on a leash,  and is
+      a total love bug.  He does sit, stay and come for treats :D(but sometimes not,
+      if you don''t have treats ;) )  He has gotten along with other large dogs after
+      a slow introduction, but isn''t good with overwhelming experiences like a dog
+      park.   Bogie is about 50 pounds.      </p><p>Unlike our cats, we try to have
+      our dogs in foster homes throughout the week. If a dog is in a foster home,
+      they come in on Saturdays from 11:00am to 4:00pm. Arrangements can be made to
+      have specific dogs brought in during the week- just give us a call or email
+      to see if the dog you are interested in is in a foster home and set up a meeting
+      time if necessary.</p><p>Our adoption fees include the following: all of our
+      dogs/puppies are current on vaccinations (DHPP and Rabies if over 3 months of
+      age) at the point of adoption, dewormed, heartworm tested and current on preventative,
+      treated for fleas/ticks and are spayed or neutered. Our large dog adoption fee
+      is generally $125.00 + tax. Our small dog and puppy adoption fee is generally
+      $160.00 + tax. Adoption fees may vary in special circumstances. Due to space
+      limitations, we do not hold dogs.</p><p>You also have the option to microchip
+      your new dog/puppy for only $20 + tax. Brookings city pet licenses are also
+      available for purchase for those living in Brookings, SD.</p><p>Because we are
+      on a busy street, we require that all dogs leaving the shelter be in a carrier
+      or on leash. All pets remain up for adoption until an approved application is
+      processed and their adoption fee paid.'
+    PetCode: 
+    PetID: 16532673
+    PetName: Bogie
+    Purebred: 0
+    WebsiteUrl: http://www.brookingshumane.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Border Collie
+    SecondaryBreed: 
+    Age: Adult
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Sweet miss Gypsy. She is a 6 year old Border collie who could snuggle
+      for hours. She enjoys taking walks and is a very good in her kennel! She would
+      be a better fit in a home with older children as she likes to be in the middle
+      of it all. She is looking for someone to show her attention and she will be
+      so happy
+    PetCode: 
+    PetID: 24665996
+    PetName: Gypsy
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Cattle Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: Dya is a shy girl who takes a little bit of time to warm up to you.
+      She is a silly girl once she breaks her shyness. Dya has a case of the zoomies
+      and will spin circles around you. She enjoys her daily walks and romps in the
+      yard. She has become quite the snuggler. She would be good in a home with children
+      as she lights up when kids come to visit. She will also be a good watch dog
+      and tell you when someone is at the door. If you are interested in Dya, you
+      will have to come spend some time with her so she can build a trust with you.
+      She knows how to sit pretty, shake and lay down. She will also dance on her
+      hind legs for a treat.
+    PetCode: 
+    PetID: 25611411
+    PetName: Dya
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Walthill
+    AddressLine1: 3175 H Ave
+    AddressLine2: 
+    AddressPostalCode: 68067
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: 12 Hills Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: Pit Bull Terrier
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brown/Chocolate - With White
+    ContactPerson: Nola Briggs
+    Description: Chong is adorable---and you can see by her photo (with her tongue
+      out) she likes to pose for pictures.<br>Both her and sister Cheech came to the
+      rescue this summer and have had all their vaccinations completed. We are thinking
+      they are now close to a year. She is on the list to be spayed, just waiting
+      for the schedule to work out.<br>Because of their breed, we find they are very
+      active and should probably be in a home without small children, cats, or other
+      females.   They need a family that can give them the training and attention
+      they so need.  Chong looks more red heeler! She is so pretty and loves attention.  Call
+      if interested 402-846-5100
+    PetCode: 
+    PetID: 16775047
+    PetName: Chong (Cookie)
+    Purebred: 0
+    WebsiteUrl: http://12hillsdogrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brookings
+    AddressLine1: 120 West 2nd Street South
+    AddressLine2: 
+    AddressPostalCode: 57006
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Brookings Regional Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Chihuahua
+    SecondaryBreed: 
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: Brown/Chocolate - With Tan
+    ContactPerson: 
+    Description: 'Hi...my name is Boris and I am a 7 year old chihuahua mix. I was
+      brought into the shelter because my owner had too many animals. I have a tendency
+      to be nervous and would love an owner that is committed to helping me come out
+      of my shell. As you can see in one of my pictures, once I am comfortable with
+      you, I love getting belly rubs. I have lived with other small dogs and seem
+      to appreciate having a friend. If you are interested in helping me become all
+      that I can be, stop down and ask for Boris!</p><p>Most of our dogs are currently
+      in shelter - but some are in foster homes.  If you would like to see a specific
+      dog, feel free to contact us to see if they are in shelter or in foster care!  Dogs
+      in shelter are available to visit or adopt daily.  IF a dog is in a foster home,
+      they come in on Saturdays from 11:00am to 4:00pm. Arrangements can be made to
+      have specific dogs brought in during the week- just give us a call or email
+      to see if the dog you are interested in is in a foster home and set up a meeting
+      time if necessary.</p><p>Our adoption fees include the following: all of our
+      dogs/puppies are current on vaccinations (DHPP and Rabies if over 3 months of
+      age) at the point of adoption, dewormed, heartworm tested and current on preventative,
+      microchipped, treated for fleas/ticks and are spayed or neutered. Our large
+      dog adoption fee is generally $150 + tax. Our small dog and puppy adoption fee
+      is generally $200+ tax. Adoption fees may vary in special circumstances. Due
+      to space limitations, we do not hold dogs.</p><p>Because we are on a busy street,
+      we require that all dogs leaving the shelter be in a carrier or on leash. All
+      pets remain up for adoption until an approved application is processed and their
+      adoption fee paid.'
+    PetCode: 
+    PetID: 26271797
+    PetName: Boris
+    Purebred: 0
+    WebsiteUrl: http://www.brookingshumane.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Luna is a special girl to us, see she is a tad different but that
+      is what makes her so unique and wonderful! She is a young girl at about 2 years
+      old, just freshly considered an adult with a teenager attitude and a toddlers
+      get up and go play style. This girl is a tall, slender and muscular girl who
+      needs an active family or a job to do to keep her energy manageable, she strives
+      to please you. When she is not chewing on a bone, running around the yard, begging
+      you to take her on a walk (and yes she will carry her leash around the house
+      until you take her!) Lu likes her stuffed unicorn, which will go to her new
+      home with her, she carries it everywhere she can and sleeps with it in her kennel.
+      We do not know her past as she was a rescue transfer after being pulled out
+      of a kill shelter, we aren't bothered by not knowing her past because we know
+      her present and future are a warm, cozy and forever loved one. <br>This sweet
+      girl is good with kids and loves to clean their faces after they make a mess
+      from lunch snacks. Due to her play style and her size/strength she may knock
+      small ones that are unsteady on their feet down unintentionally. Being dog selective
+      makes it a little more difficult for playdates but her preferences are set,
+      meaning we will NOT place her in a home that does not take dog selective dog
+      seriously and understand to the fullest she may not get along with a particular
+      dog. We are unsure of cats but the small amount of time she has shown her foster
+      parents that she is too curious about small critters to make us comfortable
+      enough to place her in a home with one. If you are a fun, outgoing, active family
+      then Luna is your girl!
+    PetCode: 
+    PetID: 20685707
+    PetName: Luna
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: Shepherd (Unknown Type)
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Brown/Chocolate
+    ContactPerson: Dale Hanna
+    Description: Our Sweet BREEZE is also still waiting for her forever home and family
+      !! This girl just loves people and was so excited to get the attention and to
+      get out in the snow to play, that she didn't care what we put on her to wear.
+      Ha ha !! Breeze loves people and we would love to see her on a farm or a country
+      home / acreage. She has had to be independent in her short life that we would
+      love to see her have the freedom to roam and explore. Once she knew this was
+      her new home and had people to love and care for her, we are sure she would
+      stay close by. Breeze is a spay, one and a half year old Chocolate Lab cross
+      Shepherd female. If you would like to come and meet her and spend some time
+      with her, she is at the rescue in Gregory, SD 605-835-8780
+    PetCode: 
+    PetID: 24677445
+    PetName: Breeze
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shorthaired Pointer
+    SecondaryBreed: Labrador Retriever
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: This fireball is the sweetest dog you could ever ask for. She will
+      be 3 in October and has a lot of puppy left in her. She loves children and jumping
+      on the trampoline with them. She is learning her leash manners, loves to walk
+      and go running. She is quick to catching on to commands. She does know how to
+      sit and stay. She is looking for an active family who will include her in all
+      their activities. She loves water as you can see her dipping her paws in the
+      water bucket in one of the posted pics.  Awnie will be spayed before an adoption
+      takes place.  If you feel Awnie would make a great addition to your family give
+      us a call at 402-336-5435.
+    PetCode: 
+    PetID: 25534965
+    PetName: Awnie
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Great Pyrenees
+    SecondaryBreed: German Shepherd Dog
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: White - With Tan, Yellow Or Fawn
+    ContactPerson: 
+    Description: 
+    PetCode: 
+    PetID: 24183116
+    PetName: Keanu
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Boxer
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Brindle - With White
+    ContactPerson: 
+    Description: Sweet Marcella, she is perfect in every way it is a shock how she
+      is not only still with us but has never had genuine interest in making her a
+      forever family member. She is fully house trained and crate trained so no messes,
+      minus the here and theres she may have while adjusting. She does great with
+      other dogs and cats are no mind for her. Children, oh gosh, kids are her forte
+      like they are her personal ones, even though she has never had a litter. If
+      you want a girl who would love time to run off energy, a girl who wants to be
+      the princess in your castle she is awaiting for her king and queen to find her!
+    PetCode: 
+    PetID: 18515186
+    PetName: Marcella
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Gregory
+    AddressLine1: 923 Whittecar Ave.
+    AddressLine2: 
+    AddressPostalCode: 57533
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Rescues Unlimited
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: German Shepherd Dog
+    SecondaryBreed: 
+    Age: Young
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tan/Yellow/Fawn - With Black
+    ContactPerson: Dale Hanna
+    Description: 
+    PetCode: 
+    PetID: 24677610
+    PetName: Brandy
+    Purebred: 0
+    WebsiteUrl: https://rescuesunlimited.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Young
+    Size: Small 25 lbs (11 kg) or less
+    Color: Brown/Chocolate - With Tan
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br><strong>Please contact Doug or Diane for
+      more information about this pet.</strong><p>Mikey is 2 years old, he came to
+      us after being left in night receiving at our local HS.<br />The Humane Officer
+      found him the next morning, he was seizing in his kennel.<br />Dakota Dachshund
+      Rescue was asked to take him once he got better, he was in the hospital for
+      a week.<br /><br />Mikey is on Keppra three times a day. Our current schedule
+      is 6 a.m., 2 p.m. and 10 p.m. his every 8 hrs schedule can be adjusted to your
+      schedule.</p> <p>Mikey is very playful, he likes to play ball. He has been with
+      children, he does do the mouthing thing so we are working on that.<br />Mikey
+      is well house trained and kennel trained.<br />He is not a big barker.<br />He
+      is very inquisitive and does get into stuff....he can chew the top off any medicine
+      bottle, any Ibuprofen container, any dog vitamin container.....we feel this
+      is what landed him at the HS as well as in the Emergency Vet Hospital.<br />Mikey
+      is very much a 2 year old.</p> <p>He weighs 15 pounds, his adoption fee is $275
+      plus sales tax $12.38= $287.38</p> <p>&nbsp;</p><br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14712577'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14712577&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14712577
+    PetID: 26144970
+    PetName: Mikey
+    Purebred: 0
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Mixed Breed (Medium)
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With White
+    ContactPerson: 
+    Description: Fit Bit originally came from Chicago as a confiscation when he was
+      found with 3 other dogs containing bite wounds. Mr Bit was awarded to the city
+      after being held as owners prisoner for unknown amount of time. He enjoys rolling
+      in the grass and loves nothing more to chase the ball and then watch it stay
+      still, he hasn't mastered bringing it back yet. He is so loving and can be quite
+      the attention hog and loves all other dogs he has met so far. He still has some
+      learning to do with proper play etiquette. He plays like a 6 week old puppy
+      in a full grown body at times. Fun and love is his middle namr, he also likes
+      to stay active! Fit Bit is looking for a home with older kids, his excitement
+      will knock small ones over. We haven't tested him with cats so it is unknown
+      how he would do.
+    PetCode: 
+    PetID: 23076532
+    PetName: Fit Bit
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brookings
+    AddressLine1: 120 West 2nd Street South
+    AddressLine2: 
+    AddressPostalCode: 57006
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Brookings Regional Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: German Shepherd Dog
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Tan/Yellow/Fawn - With Black
+    ContactPerson: 
+    Description: 'Hello there my name is Eliot and I am an 8 month old, 55 pound lab
+      mix. I was adopted and then returned because I ended up being a little too much
+      for the family. I am a very sweet boy and I know how to sit. I am very active
+      and love walks and all kinds of adventures. I am still a puppy so I do need
+      help with my manners but I am very smart so it shouldn''t take too long! I did
+      live on a farm so I will need to be taught how to not go potty in the house.
+      Sometimes I can be a bit jumpy but with some guidance and being corrected I
+      will stop that in no time. I love everyone but due to my jumyness and excitement
+      I may knock little ones over. I have not been around other dogs but I do not
+      show signs of aggression towards any here at the shelter. I did chase the farm
+      cats at my previous home so a home without cats would probably be best fit for
+      me. I am in the shelter scouting out potential forever homes that can teach
+      me how to be the best pup I can be. I am looking for someone that is willing
+      to give me the exercise and training I need to be a well mannered boy. I am
+      already neutered, micro chipped and up to date on all of my vaccinations so
+      next step is a forever home :) My adoption fee is $213.00</p><p>Most of our
+      dogs are currently in shelter - but some are in foster homes. If you would like
+      to see a specific dog, feel free to contact us to see if they are in shelter
+      or in foster care! Dogs in shelter are available to visit or adopt daily. IF
+      a dog is in a foster home, they come in on Saturdays from 11:00am to 4:00pm.
+      Arrangements can be made to have specific dogs brought in during the week- just
+      give us a call or email to see if the dog you are interested in is in a foster
+      home and set up a meeting time if necessary.</p><p>Our adoption fees include
+      the following: all of our dogs/puppies are current on vaccinations (DHPP and
+      Rabies if over 3 months of age) at the point of adoption, dewormed, heartworm
+      tested and current on preventative, microchipped, treated for fleas/ticks and
+      are spayed or neutered. Our large dog adoption fee is generally $150 + tax.
+      Our small dog and puppy adoption fee is generally $200 + tax. Adoption fees
+      may vary in special circumstances. Due to space limitations, we do not hold
+      dogs.</p><p>Because we are on a busy street, we require that all dogs leaving
+      the shelter be in a carrier or on leash. All pets remain up for adoption until
+      an approved application is processed and their adoption fee paid. Adoptions
+      will stop a half hour before we close, at 5:30pm M-F and 3:30pm Saturday.'
+    PetCode: 
+    PetID: 26379928
+    PetName: Eliot
+    Purebred: 0
+    WebsiteUrl: http://www.brookingshumane.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pit Bull Terrier
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Gray/Blue/Silver/Salt & Pepper
+    ContactPerson: 
+    Description: Cinder loves long walks and to sit in your lap. We are guessing she
+      is about 4 yrs old. She is very sweet!
+    PetCode: 
+    PetID: 25535477
+    PetName: Cinder
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Broken Bow
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 68822
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: K9HAVEN Rescue, Inc.
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Yorkie, Yorkshire Terrier
+    SecondaryBreed: 
+    Age: Senior
+    Size: Small 25 lbs (11 kg) or less
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: 
+    Description: <p>Maddie Jo is a little 6 1/2 pound 9 year old Yorkshire Terrier.&nbsp;
+      She has been spayed, had her dental, on heart worm preventative and current
+      on all her vaccinations. She is great with other dogs, will chase cats, and
+      is a little timid with humans.&nbsp; She warms up quickly, though. Maddie Jo
+      is a breeder release, so house training is a work in progress.&nbsp; She is
+      doing well with the doggie door.</p>  <p>K9HAVEN Rescue requires a securely
+      fenced yard, no underground fencing, please. An application for adoption, vet
+      and personal references, a home visit and adoption contract. No children under
+      the age of 8.</p><img src='https://tracker.rescuegroups.org/pet?10505363&a=2053&h='
+      width='0' height='0' alt='' />
+    PetCode: 10505363
+    PetID: 16499967
+    PetName: Maddie Jo
+    Purebred: 1
+    WebsiteUrl: http://www.k9havenrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Broken Bow
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 68822
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: K9HAVEN Rescue, Inc.
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Pomeranian
+    SecondaryBreed: 
+    Age: Senior
+    Size: Small 25 lbs (11 kg) or less
+    Color: Gray/Silver/Salt & Pepper - With Black
+    ContactPerson: 
+    Description: <p>GiGi is a little 11 pound, 9 year old blue merle Pomeranian. She
+      has been spayed, had her dental, on heart worm preventative and current on all
+      her vaccinations. She is okay with other dogs (but would do best as an only
+      dog), great with cats and all humans. GiGi is a breeder release, so house training
+      is a work in progress. GiGi is deaf, so needs someone willing to train her with
+      sign.</p>  <p>K9HAVEN Rescue requires a securely fenced yard, no underground
+      fencing, please. An application for adoption, vet and personal references, a
+      home visit and an adoption contract. No children under the age of 8.</p><img
+      src='https://tracker.rescuegroups.org/pet?10505380&a=2053&h=' width='0' height='0'
+      alt='' />
+    PetCode: 10505380
+    PetID: 16500133
+    PetName: GiGi
+    Purebred: 1
+    WebsiteUrl: http://www.k9havenrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 57103
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Maggy's Bully Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Red/Golden/Orange/Chestnut - With White
+    ContactPerson: 
+    Description: 
+    PetCode: 
+    PetID: 26379093
+    PetName: Jerzey
+    Purebred: 0
+    WebsiteUrl: 
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Blue Heeler
+    SecondaryBreed: Border Collie
+    Age: Puppy
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Tricolor (Tan/Brown & Black & White)
+    ContactPerson: 
+    Description: Hi Im FINN!! I am a sweet curious little guy who loves to play my
+      days away. I am looking for a family who will help me in learning my commands.
+      I also will need help in leash training. I am about 10 weeks old mixed with
+      Heeler, Rat Terrier, Border Collie and German Shepard. I am a lover and give
+      good kisses.
+    PetCode: 
+    PetID: 25611341
+    PetName: Finn
+    Purebred: 0
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Broken Bow
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 68822
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: K9HAVEN Rescue, Inc.
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shih Tzu
+    SecondaryBreed: 
+    Age: Senior
+    Size: Small 25 lbs (11 kg) or less
+    Color: White - With Tan, Yellow Or Fawn
+    ContactPerson: 
+    Description: <p>&nbsp;Magoo is a 9 pound, 10 year old Shih Tzu. He is a breeder
+      release, so house training is a work in progress. He is neutered, on heart worm
+      preventative, current on all his vaccinations and has had a dental. He is great
+      with other dogs and cats. Comfortable with humans.</p>  <p>K9HAVEN Rescue requires
+      a securely fenced yard, no underground fencing, please. An application for adoption,
+      vet and personal references, a home visit and adoption contract. No children
+      under the age of 8.</p><img src='https://tracker.rescuegroups.org/pet?10505330&a=2053&h='
+      width='0' height='0' alt='' />
+    PetCode: 10505330
+    PetID: 17249124
+    PetName: Magoo
+    Purebred: 1
+    WebsiteUrl: http://www.k9havenrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brookings
+    AddressLine1: 120 West 2nd Street South
+    AddressLine2: 
+    AddressPostalCode: 57006
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Brookings Regional Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Chihuahua
+    SecondaryBreed: 
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: Tan/Yellow/Fawn
+    ContactPerson: 
+    Description: 'Hello my name is Carmichael! I am a 4-5 year old, 21 pound chihuahua
+      mix. I came to the shelter because my owner had too many animals. I am very
+      friendly and have enjoyed every visitor that has come to say hi. I am a little
+      under socialized so someone who is patient and understands my situation would
+      be best for me. I am not yet house trained but I''m sure I would catch on quickly.
+      I have been getting along with one other dog I came in with but sometimes I
+      was not so nice to the other ones so if you have a dog a meet and greet is suggested!
+      I am in the shelter scouting out potential adopters that will understand my
+      situation. I am a very good boy and always try my best to please. Since coming
+      to the shelter I have been neutered, micro chipped and up to date on my vaccinations.
+      If you have any questions about me please feel free to ask or come in to meet
+      me! My adoption fee is $213.00</p><p>Most of our dogs are currently in shelter
+      - but some are in foster homes. If you would like to see a specific dog, feel
+      free to contact us to see if they are in shelter or in foster care! Dogs in
+      shelter are available to visit or adopt daily. IF a dog is in a foster home,
+      they come in on Saturdays from 11:00am to 4:00pm. Arrangements can be made to
+      have specific dogs brought in during the week- just give us a call or email
+      to see if the dog you are interested in is in a foster home and set up a meeting
+      time if necessary.</p><p>Our adoption fees include the following: all of our
+      dogs/puppies are current on vaccinations (DHPP and Rabies if over 3 months of
+      age) at the point of adoption, dewormed, heartworm tested and current on preventative,
+      microchipped, treated for fleas/ticks and are spayed or neutered. Our large
+      dog adoption fee is generally $150 + tax. Our small dog and puppy adoption fee
+      is generally $200 + tax. Adoption fees may vary in special circumstances. Due
+      to space limitations, we do not hold dogs.</p><p>Because we are on a busy street,
+      we require that all dogs leaving the shelter be in a carrier or on leash. All
+      pets remain up for adoption until an approved application is processed and their
+      adoption fee paid. Adoptions will stop a half hour before we close, at 5:30pm
+      M-F and 3:30pm Saturday.'
+    PetCode: 
+    PetID: 26322617
+    PetName: Carmichael
+    Purebred: 0
+    WebsiteUrl: http://www.brookingshumane.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: ONeill
+    AddressLine1: 500 S. Logan St.
+    AddressLine2: 
+    AddressPostalCode: 68763
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Holt County Animal Shelter
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Australian Shepherd
+    SecondaryBreed: 
+    Age: Young
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Merle
+    ContactPerson: 
+    Description: Gunner is a sweet 3 yr old girl who loves to run, enjoys her romps
+      around the yard and walking with our volunteers. She is kennel/house trained
+      and will greet you with a big smile and a little jump. She has a high prey drive
+      so a home with small animals is a no go. We are still testing her with other
+      dogs to see how she fairs with them so as of right now a home with no other
+      dogs would be best. <br>Gunner is very active and would do well in a home with
+      children and a family that has the patience and knowledge for a dog who may
+      be hard of hearing. We have done a few tests and the lower pitched sounds she
+      seems to either ignore or does not hear. Gunner girl will be spayed before an
+      adoption takes place.
+    PetCode: 
+    PetID: 25535438
+    PetName: Gunner
+    Purebred: 1
+    WebsiteUrl: https://www.holtcountyanimalshelter.org/
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Broken Bow
+    AddressLine1: 
+    AddressLine2: 
+    AddressPostalCode: 68822
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: K9HAVEN Rescue, Inc.
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pomeranian
+    SecondaryBreed: 
+    Age: Senior
+    Size: Small 25 lbs (11 kg) or less
+    Color: Tan/Yellow/Fawn
+    ContactPerson: 
+    Description: <p>Max is a purebred Pomeranian. He has been on a diet since coming
+      to rescue, and has now reached his ideal weight of 9 pounds. He has a beautiful
+      blonde coat.</p>  <p>Max is current on all his vaccinations and has been neutered.
+      Max tested negative for heart worm and is on preventative. He gets along very
+      well with all the dogs.&nbsp; He is also super with the cats. Max is crate trained
+      and house trained. Max was surrendered to rescue because he likes to mark his
+      territory. This can be addressed in a couple different ways - both involving
+      consistency and patience. He is doing well here. Max needs a home with a lot
+      of love, someone who will play with him, and is willing to brush him.</p>  <p>K9HAVEN
+      Rescue, Inc. is a 501(c)3 not for profit rescue. Your donation for Max&#39;s
+      $75 adoption fee is tax deductible. K9HAVEN Rescue requires a fenced yard (no
+      underground fencing, please) an adoption application, personal and vet references,
+      home visit and an adoption contract. Max will not be placed in a home with very
+      young children. Please contact us if you have any questions about Max.</p><img
+      src='https://tracker.rescuegroups.org/pet?8276294&a=2053&h=' width='0' height='0'
+      alt='' />
+    PetCode: 8276294
+    PetID: 19726335
+    PetName: Max
+    Purebred: 1
+    WebsiteUrl: http://www.k9havenrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Pomeranian
+    SecondaryBreed: 
+    Age: Young
+    Size: Small 25 lbs (11 kg) or less
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Hi!
+      I''m Percy. I am just a little guy that loves to play and play and play. I am
+      just starting to work on my housetraining. I am very sweet and love to be loved.
+      I don''t always listen when my foster mom tells me to come. I need a fenced
+      yard at this point as I don''t know a harness and a leash walk yet. Can you
+      be my furever home? I am 7 months old , I weigh almost 5 pounds, my adoption
+      fee is $400 plus sales tax $18=$418.</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14826523''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14826523&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14826523
+    PetID: 26395766
+    PetName: Percy
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Young
+    Size: Small 25 lbs (11 kg) or less
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Teresa for more
+      information about this pet.</strong><span style=''font-size: 12pt;''>Hi! I''m
+      Benny. I am a young guy just loving life. I love being with my person and hanging
+      out with other dogs. I am 1 1/2 years old, I weigh14 pounds, my adoption fee
+      is $350 plus sales tax $15.75=$365.75</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14826530''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14826530&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14826530
+    PetID: 26395765
+    PetName: Benny
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Havanese
+    SecondaryBreed: Poodle (Miniature)
+    Age: Young
+    Size: Small 25 lbs (11 kg) or less
+    Color: Black - With White
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Hi!
+      I''m Barkley. I am a very loveable pup with lots of energy. I run, chase and
+      at and then love giving kisses. I am a severe door dasher so a fenced yard is
+      a must for me. I am still a puppy so still need some training. Can you be my
+      furever home? I am 7 months old, I weigh 10 pounds, my adoption fee is $400
+      plus sales tax<br /></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14826520''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14826520&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14826520
+    PetID: 26395767
+    PetName: Barkley
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Bichon Frise
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Electra is a timid little girl at this point.&nbsp;
+      She is just learning how much we love her and want to make her happy.&nbsp;
+      I think she will adjust quickly as she is hanging pretty close watching the
+      other dogs and how much they like tummy rubs.&nbsp; Electra will need a fenced
+      yard since she is not even used to a collar yet.&nbsp; Come and meet her - she
+      is going to be a great friend.<br /><br />Electra is&nbsp; 3 years old and weighs
+      about 17 pounds.<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14781638'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14781638&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14781638
+    PetID: 26313034
+    PetName: Elektra
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: Maltese
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Honey had a family, but they could no longer
+      keep her.&nbsp; She is very anxious to find her own family again - but they
+      must be a forever family.&nbsp; Honey is shy at first - but once she knows you
+      she is the sweetest little girl.&nbsp; She loves to be with her family and she
+      is always close by in case you need a friend.&nbsp; Honey is very used to a
+      fenced yard to run around in.&nbsp; Honey is a dachshund/maltese/poodle - the
+      best of all worlds!<br /><br />Honey is about 6 years old and weighs about 14
+      pounds.&nbsp; Her adoption fee is $250 plus tax of $11.25 for a total of $261.25.<br><br><a
+      href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14781569'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14781569&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14781569
+    PetID: 26312672
+    PetName: Honey
+    Purebred: 0
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Angel and Shelby have been sisters for a
+      long time.&nbsp; Their family was no longer able to keep them so they came to
+      DDR.&nbsp; We did promise they would stay together.&nbsp; Angel is a little
+      timid at first - but is very loving once she knows you.&nbsp; She is the shyer
+      quieter one of the two.&nbsp; They balance each other very well.&nbsp; Angel
+      does not like a leash so does need a fenced yard.<br /><br />Angel is about
+      4 years old and weighs about 18 pounds.&nbsp; Her adoption fee is $250 plus
+      tax of $11.25 for a total of $261.25.&nbsp; The adoption fee for both would
+      be $522.50.<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14781654'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14781654&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14781654
+    PetID: 26313806
+    PetName: Angel and Shelby
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Hi,
+      my name is Cassell. <br />I am a pretty shy guy. My foster mom is working with
+      me so I come in the house when she opens the door instead of running away. <br
+      />I love to snuggle once I am on her lap but definitely need to learn to trust.<br
+      /> <span style=''color: #ff0000;''><strong>I must have a fenced yard</strong>
+      </span>to keep me safe. <br /><br />I am very bad with cats and other small
+      animals, I am a natural hunter.<br /><br /></span><span style=''font-size: 12pt;''>Can
+      you be my forever home? I am 5 years old , I weigh 17.8 pounds, <br />my adoption
+      fee is $250 plus sales tax $11.25= $261.25</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=12408624''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?12408624&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 12408624
+    PetID: 26340101
+    PetName: Cassell
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: French Bulldog
+    SecondaryBreed: 
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Hi!
+      I''m Binger. I came to DDR as a breeder release. <br />Time to learn how to
+      be a pet instead of a mom. <br />I am very playful, takes me a little bit to
+      get to know you but I am very friendly once I settle in. <br />I did have a
+      back injury in November 2018, my previous owner did a great job with physical
+      therapy so I run chase and play but if I go too fast and get tired sometimes
+      my back legs buckle a bit. <br />I''m just getting used to being in a home setting
+      so I am working hard on my house training. <br />I have a wonderful playful
+      personality, I love playing with all the dachshunds! <br /><strong><span style=''color:
+      #ff0000;''>At this point a fenced yard is a must as I have not learned to wear
+      a collar or harness and have not learned to walk on a leash</span>.</strong><br
+      />Can you be my furever home? <br />I am 4 years old, I weigh 23.2 pounds, <br
+      />my adoption fee is $650 plus sales tax $29.25=$679.25</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14713519''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14713519&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14713519
+    PetID: 26147153
+    PetName: Binger
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Hello my name is Kyra.&nbsp; I am just starting
+      to get used to being a part of a family.&nbsp; I like it a lot so far.&nbsp;
+      Everyone wants to hold me and pet me and I am just fine with that.&nbsp; I really
+      love attention.&nbsp; I am working on going potty and getting better each day.&nbsp;
+      I like all of the other foster dogs at my foster mom's house.&nbsp; On top of
+      all of that I am pretty and a very good friend.&nbsp; I do need a fenced yard
+      as I have never walked on a leash.&nbsp; Come and meet me!<br /><br />My name
+      is Kyra and I am about 4 years old.&nbsp; My adoption fee is $250 plus tax of
+      $11.25 for a total of $261.25.<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14779784'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14779784&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14779784
+    PetID: 26309223
+    PetName: Kyra
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Bichon Frise
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>This little girl's name is Sunshine - and
+      she really is a bright spot in the day.&nbsp; She is pretty timid right now.&nbsp;
+      She is just getting used to be a spoiled baby - but she thinks she can get used
+      to it.&nbsp; Sunshine gets along great with all the other foster dogs.&nbsp;
+      When I pick her up she loves to snuggle under my neck already.&nbsp; Sunshine
+      does need a fenced yard as she has never even worn a collar.<br /><br />Sunshine
+      is 7 years old, she weighs&nbsp; 13. pounds&nbsp; Her adoptioin fee is $250
+      plus sales tax&nbsp;<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14781621'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14781621&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14781621
+    PetID: 26312671
+    PetName: Sunshine
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: Red/Golden/Orange/Chestnut
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Howdy!
+      My name is Dax. I came to Dakota Dachshund Rescue because my mom couldn''t take
+      care of me anymore. I was hit by a car many years ago, my pelvis was crushed.
+      I healed and was able to walk again because my mom took such good care of me.
+      I can be a little sensitive when picked up, I have learned to trust my foster
+      mom but it took a week for me to trust her not to hurt me. Dr Paul did xrays
+      and assessed my pelvis, I may need arthritis meds or pain meds. I do fine with
+      all the other dogs in my foster home.&nbsp;<br />I love blankets....blankets
+      on the couch, blankets in the bed, blankets in my kennel!<br /><br />Can you
+      be my furever home? I am 10 years old, I weigh 13.6 lbs, my adoption fee is
+      $175 plus sales tax 12.88=$187.88<br /></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=13385431''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?13385431&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 13385431-18-75
+    PetID: 23107840
+    PetName: Dax
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>This is Casper and his brother and BFF Bunny.&nbsp;
+      They came from a family who loved them very much but couldn't keep them.&nbsp;
+      Are you looking for two incredibly handsome boys - who also have good manners
+      - here they are!&nbsp; The boys love to play in the yard so would very much
+      like a fenced yard and LOVE to be with their family.&nbsp; They can accomodate
+      an incredible amount of cuddling.&nbsp; They have so much love to give!<br />Casper
+      is about 11 years old and weighs about 17 pounds.&nbsp; His adoption fee is
+      $175 plus tax of $7.88 for a total of $182.88 each or $365.76 together.<br><br><a
+      href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14583171'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14583171&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14583171
+    PetID: 25857588
+    PetName: Casper and Bunny
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Nice to meet you - my name is Duckie.&nbsp;
+      I am Baby's sister and of course best friend.&nbsp; We have always been together
+      and we make a wonderful pair.&nbsp; We are stars in the companionship department.&nbsp;
+      We will be happy to sit with you and love you all the time.&nbsp; Come and meet
+      us - we are very sweet girls.<br /><br />My name is Duckie and I weigh about
+      13 pounds.&nbsp; I am about 13 years old and my adoption fee is $175 plus tax
+      of $7.88 for a total of $182.88.&nbsp; For me and Baby that would be $365.76.<br><br><a
+      href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14314961'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14314961&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14314961
+    PetID: 25198208
+    PetName: Duckie and Baby
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Meeko
+      came to DDR because his mom passed away very suddenly and his dad is very ill
+      in the hospital.<br /> Meeko is very sad and needs a quiet home, someone that
+      will take him on walks or play in the yard. <br />He does need a fenced yard.<br
+      />Meeko can be snippy in some situations, he doesn''t like people to pet him
+      on the rearend, he is very protective of chewies and treats so a home with small
+      children would not be a good fit for him.<br /><span>I am 6 years old, I weigh
+      19 lbs, my adoption fee is $250 plus sales tax $11.25 = $261.25</span><br /></span><br><br><a
+      href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14501827''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14501827&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14501827
+    PetID: 26340100
+    PetName: Meeko
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Australian Shepherd
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: White
+    ContactPerson: 
+    Description: '***NOT ACCEPTING APPLICATIONS AT THIS TIME. CURRENTLY GOING THROUGH
+      OUR INTAKE VETTING PROCESS***'
+    PetCode: 42480339
+    PetID: 26177582
+    PetName: EVEREST
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Introducing Bunny and Casper - two very
+      handsome gents.&nbsp; They lost their owner and the family is unable to keep
+      them, but they have been loved all their lives.&nbsp; They are looking for a
+      forever family now and they are brothers and bros stick together so they have
+      to be adopted together.&nbsp; They love having a fenced yard almost as much
+      as they love being with their family.&nbsp; Some lucky family will get two very
+      handsome men!<br /><br />Bunny is 13 and weighs about 15 pounds.&nbsp; His adoption
+      fee is $175 plus tax of $7.88 for a total of $182.88 each or $365.76.<br><br><a
+      href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14583161'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14583161&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14583161
+    PetID: 25857589
+    PetName: Bunny and Casper
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: Black
+    ContactPerson: 
+    Description: '***NOT ACCEPTING APPLICATIONS AT THIS TIME. CURRENTLY GOING THROUGH
+      OUR INTAKE VETTING PROCESS***'
+    PetCode: 42480595
+    PetID: 26177585
+    PetName: MARWIN
+    Purebred: 0
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black
+    ContactPerson: 
+    Description: '***NOT ACCEPTING APPLICATIONS AT THIS TIME. CURRENTLY GOING THROUGH
+      OUR INTAKE VETTING PROCESS***'
+    PetCode: 42480693
+    PetID: 26177587
+    PetName: SANO
+    Purebred: 0
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Shelby and Angel are definitely besties.&nbsp;
+      Angel is the quiet one - Shelby is the outgoing one.&nbsp; She loves to talk
+      - not bark - talk.&nbsp; She follows her foster mom everywhere.&nbsp; Both girls
+      had a loving family - they they were unable to keep the girls.&nbsp; Now they
+      are looking for a very forever family - together.&nbsp; Neither of the girls
+      like to be on a leash so a fence is a must.<br /><br />Shelby is about 4 years
+      old and about 12 pounds.&nbsp; Her adoption fee is $250 plus tax of $11.25 for
+      a total of $261.25.&nbsp; The total for the pair is $522.50<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14781666'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14781666&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14781666
+    PetID: 26313805
+    PetName: Shelby and Angel
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: Brown/Chocolate - With White
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><span style=''font-size: 12pt;''>Cocoa
+      just came back to DDR. he loved his new mom very much and decided he needed
+      to protect her. Cocoa will need a strong pack leader to work with him and a
+      quiet home. He is a very sweet boy.&nbsp;<br /><br />Hi! My name is Cocoa<br
+      /> I was in a shelter and was adopted for a few months but got returned to the
+      shelter when I didn''t do well with an autistic grandchild<br /> :( <br />I
+      am a very sweet boy, I did come in with a flea infestation/flea dermatitis but
+      the fleas are now gone and the antibiotics and medicated baths are helping my
+      skin feel better. <br />I am an absolute love with adults and other small dogs.
+      Can you be my furever home?<br />I am 10 years old, I weigh 12 pounds, my adoption
+      fee is $175 plus sales tax $7.88 = $182.88<br /></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14209522''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14209522&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14209522
+    PetID: 25990139
+    PetName: Cocoa
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><span style=''font-size: 12pt;''>Greetings
+      from me and my sister Duckie.&nbsp; We are not only sisters we are besties so
+      we have to be together forever.&nbsp; We have been much loved all of our lives,
+      but our family can''t keep us anymore.&nbsp; We have so much love to give -
+      we specialize in lap sitting.&nbsp; You will never be alone with us arouond.&nbsp;&nbsp;</span><br
+      /><br /><span style=''font-size: 12pt;''>My name is Baby and I weigh about 18
+      pounds.&nbsp; I am about 13 years old and my adoption fee is $175 plus tax of
+      $7.88 for a total of $182.88.&nbsp; My sister and I together would be $365.76.</span><br><br><a
+      href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14314811''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?14314811&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 14314811
+    PetID: 25198209
+    PetName: Baby and Duckie
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: Shih Tzu
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>Tom is an all around great guy.&nbsp; He
+      is sweet and playful and handsome.&nbsp; Tom came with his BFF Jerry and they
+      are happy when they are together so they have to be adopted together.&nbsp;
+      They must have a secure fenced yard to run and play.&nbsp; These boys love attention
+      and are always ready to make you smile.<br /><br />Tom is about 2 years old
+      and weighs about 10 pounds.&nbsp; His adoption fee is $275 plus tax of $12.38
+      for a total of $287.38 each.&nbsp; Together they are $574.76.<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14584064'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14584064&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14584064
+    PetID: 25988981
+    PetName: Tom and Jerry
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Chihuahua
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: Tan/Yellow/Fawn
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br><strong>Please contact Erica for more information
+      about this pet.</strong><div>Hi! I'm Dewey. I am a tiny Chihuahua puppy looking
+      for a furever home of my own.</div> <div>I am&nbsp; small and fragile so I would
+      not be a good fit with small children. I tried living with a 5 yr old child
+      andthey were too rough with me so I bit them.<br />I love having another small
+      dog to play with, ai am a puppy so I need to be able to run off some energy
+      so a fenced yard to keep me safe.<br />I do not likea tie out.</div> <div>I
+      am 4 months old,&nbsp; I weigh 6.4&nbsp; pounds, my adoption fee is $325 plus
+      sales tax $14.63= $339.63</div><br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14470821'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14470821&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14470821
+    PetID: 26061969
+    PetName: Dewey
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: Shih Tzu
+    Age: Adult
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br>This is Jerry-I know what you are thinking
+      - what a handsome boy.&nbsp; This is true plus he is very very sweet.&nbsp;
+      He came to DDR with his BFF Tom.&nbsp; They run and play together and really
+      need a secure fence yard.&nbsp; Jerry loves to be with his family and will make
+      you smile all the time.&nbsp; If you are looking for two terrific boys to join
+      your fun family - here they are!<br /><br />Jerry is about 3 years old and weighs
+      about 9 pounds.&nbsp; His adoption fee is $275 plus tax of $12.38 for a total
+      of $287.38.&nbsp; The two boys together are $574.76.<br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14584081'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14584081&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14584081
+    PetID: 25988980
+    PetName: Jerry and Tom
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Maltese
+    SecondaryBreed: Yorkie, Yorkshire Terrier
+    Age: Adult
+    Size: Small 25 lbs (11 kg) or less
+    Color: Tan/Yellow/Fawn
+    ContactPerson: 
+    Description: Rocky came to B-Squad as an owner surrender due to his family moving.
+      This little guys is a total love bug and would be a perfect companion for anyone
+      looking for a fun lap dog companion. Rocky is housetrained and gets along well
+      with other dogs and people of all ages!<br/><br/>Rocky&#39;s adoption fee is
+      $450. He is neutered, up to date on vaccinations and monthly preventatives,
+      and is microchipped. He also just had his teeth cleaned and is ready for his
+      forever family! Please visit our website at www.bsquaddogrescue.com to review
+      our adoption process and complete an application! Thank you!<br/>
+    PetCode: 42656371
+    PetID: 26375754
+    PetName: Rocky
+    Purebred: 0
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Border Collie
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: White
+    ContactPerson: 
+    Description: Woodstock is a male border collie that came to B-Squad after being
+      released from a commercial breeder in Missouri.<br/><br/>Woodstock is a sweet
+      boy who loves to explore!  He loves rope toys and squeaky toys. He gets along
+      well with his big foster brother and sister. He&#39;s loved the kids. He&#39;s
+      loving the good life! He&#39;s been doing great in the kennel and knows to go
+      potty outside (just doesn&#39;t always know yet to not go inside!).<br/><br/>Woodstock&#39;s
+      adoption fee is $500 and includes his neuter when age appropriate through our
+      B-Squad spay/neuter program. He is up to date on age appropriate vaccinations,
+      monthly preventatives, and is microchipped. Please visit our website at www.bsquaddogrescue.com
+      to review our adoption process and complete an application. Thank you!<br/>
+    PetCode: 42480464
+    PetID: 26177576
+    PetName: WOODSTOCK
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Chihuahua
+    SecondaryBreed: Terrier (Unknown Type, Medium)
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br><strong>Please contact Nadene for more information
+      about this pet.</strong><p>Hi! My name is Bella and I would love to play fetch
+      with you.</p> <p>I am incredibly treat and toy oriented. Sometimes I get stuck
+      in my foster mom&rsquo;s toy basket trying to unpack all the toys in an afternoon
+      and end up crying for help. I really enjoy walks, fetching, and showing off
+      my new tricks. My foster mom is working with me to learn new commands and thinks
+      that I am very smart.</p> <p>I am a bit protective. Sometimes this trait is
+      great&mdash;I alert people in the house when someone&rsquo;s coming, but sometimes
+      it means that I don&rsquo;t share my bed, toys, or foster mom very well. I came
+      to live with my foster mom, because I couldn&rsquo;t get along with the toddler
+      in my house and I have some behavioral problems that I&rsquo;m working to fix.
+      I&rsquo;ve made a lot of progress in a short time with my foster mom, who would
+      be happy to talk to you about me.</p> <p>I am currently staying at a house with
+      two dogs (one young and one old) and a cat. In the time I&rsquo;ve been here,
+      I&rsquo;ve adjusted to sharing the toys (most of the time) and the dog beds
+      (sometimes) and the cat and I can hang around each other. Like I said before,
+      I&rsquo;m smart and know that not sharing means I don&rsquo;t get to have that
+      thing, so I give up and walk away without complaint. It&rsquo;s my first time
+      in a house with a cat, so sometimes I forget that I&rsquo;m not supposed to
+      chase her. I&rsquo;ve only been practicing this for a month and have gotten
+      really good at remembering, unless I&rsquo;m tired, then I turn into a pumpkin.</p>
+      <p>I would be really happy in a home without children, lots of toys, and a warm
+      bed&mdash;preferably your bed. I&rsquo;m not very big, so I won&rsquo;t take
+      up much space.</p> <p>&nbsp;</p> <p>PS. My bedtime is 9:30, I hope yours is,
+      too.</p> <br /> <div class='OutlineElement Ltr  BCX0 SCXW130714616'> <p class='Paragraph
+      SCXW130714616 BCX0' lang='EN-US' xml:lang='EN-US'><span class='EOP SCXW130714616
+      BCX0' data-ccp-props='{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}'>&nbsp;</span></p>
+      </div> <div class='OutlineElement Ltr  BCX0 SCXW130714616'> <p class='Paragraph
+      SCXW130714616 BCX0' lang='EN-US' xml:lang='EN-US'><span class='TextRun SCXW130714616
+      BCX0' lang='EN-US' xml:lang='EN-US' data-contrast='none'>I need a strong pack&nbsp;</span><span
+      class='TextRun SCXW130714616 BCX0' lang='EN-US' xml:lang='EN-US' data-contrast='none'>leader</span><span
+      class='TextRun SCXW130714616 BCX0' lang='EN-US' xml:lang='EN-US' data-contrast='none'>&nbsp;that
+      can keep me busy!</span><span class='TextRun SCXW130714616 BCX0' lang='EN-US'
+      xml:lang='EN-US' data-contrast='none'>&nbsp;<br /><br />I am almost 9 years
+      old, I weigh 18 pounds, my adoption fee is $175 plus sales tax $7.88= $182.88</span></p>
+      </div><br><br><a href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14261754'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14261754&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14261754
+    PetID: 25055575
+    PetName: Bella
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Tonya for more
+      information about this pet.</strong><span style=''font-size: 12pt;''>Hello -
+      my name is Hannah and my sister is Molly.&nbsp; <br />We have always been sisters
+      so we need a home that can love us both.&nbsp; <br />I am the black and white
+      little girl and I am blind.&nbsp; <br />I may have some peripheral vision, but
+      very limited.&nbsp; <br />I love to sit on your lap and snuggle with my sister.&nbsp;
+      <br />I have adjusted very well to my foster home.&nbsp; <br />I learn to get
+      around quickly.&nbsp; I love everyone - that loves me!&nbsp;<strong><span style=''color:
+      #ff0000;''> I absolutely must have a fenced yard due to my limited vision.</span></strong></span><br
+      /><br /><span style=''font-size: 12pt;''>My name is Hannah and I weigh about
+      10 pounds.&nbsp; I am 7 years old.<br />My adoption fee is $250 plus tax of
+      $11.25 for a total of $261.25.&nbsp;<br /> My sister is $175 + tax $7.88=$182.88
+      because she is almost 9 years old. <br />We must stay together total adoption
+      fee for both of us is $444.13</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=11367175''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?11367175&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 11367175
+    PetID: 18086017
+    PetName: Hannah and Molly
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Tonya for more
+      information about this pet.</strong><span style=''font-size: 12pt; background-color:
+      #ffffff;''>My name is Molly and my sister is Hannah.&nbsp; <br />We have always
+      been together so DDR said we could be adopted together.&nbsp; <br />I am a little
+      shy at first - but once I know you I love to be with you.&nbsp;<br /> I like
+      to snuggle with Hannah too.&nbsp; <br /><strong><span style=''color: #ff0000;''>We
+      have to have a fenced yard since my sister has very limited vision.&nbsp;</span>
+      </strong><br />I hope you come to meet us.&nbsp; </span><br /><br /><span style=''font-size:
+      12pt; background-color: #ffffff;''>My name is Molly and I am almost 9 yrs old,
+      I weigh about 11 pounds.&nbsp; <br /></span><span style=''font-size: 12pt;''>My
+      adoption fee is&nbsp; $175 + sales tax $7.88=$182.88<br /></span><span style=''font-size:
+      12pt;''>My sister Hannah is 7 yrs old so her adoption fee is <span>$250. + sales
+      tax $11.25=$261.25.&nbsp;</span><br />We must stay together.<br />Total for
+      us both is $444.13</span><span style=''font-size: 12pt; background-color: #ffffff;''><br
+      /><br /></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=11367184''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?11367184&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 11367184
+    PetID: 18086018
+    PetName: Molly and Hannah
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Golden Retriever
+    SecondaryBreed: 
+    Age: Senior
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Red/Golden/Orange/Chestnut
+    ContactPerson: 
+    Description: Maxwell Angel was welcomed to B-Squad after being surrendered when
+      his family was moving and could only take one dog with them. Max was really
+      struggling with his hips when he first arrived to rescue, but after some x-rays,
+      medication, and a good grooming, he looks and feels like a whole new ma who
+      is ready to enjoy his golden years in a loving home! Maxwell is housetrained
+      and gets along great with dogs, cats, and people of all ages.<br/><br/>Maxwell
+      will be looking for a forever home with few stairs so that it is easier for
+      him to get around. He will need to be on anti-inflammatories and supplements
+      for his hips for the rest of his life to help him get around without pain. Maxwell&#39;s
+      adoption fee is $400. He is neutered, up to date on monthly vaccinations, preventatives,
+      and is microchipped. Please visit our website at bsquaddogrescue.com to review
+      our adoption process and complete an application today to welcome this sweet
+      senior home! Thank you!
+    PetCode: 42656490
+    PetID: 26375753
+    PetName: Maxwell Angel
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: <font color=red>You can fill out an adoption application online on
+      our official website.</font><br><br><strong>Please contact Veronica for more
+      information about this pet.</strong>Hi! I'm Zoe <p>I am a beautiful girl. I
+      am 11 years old, my date of birth is 5/12/2007.<br />I do have severe separation
+      anxiety. That is why I came to Dakota Dachshund Rescue.<br />My owner moved
+      from a house to an apartment and I did not acclimate to the move<br />My Owner
+      spent lots of money trying behaviorists, meds, etc but nothing helped so I had
+      find a new home&nbsp;<br />My current foster mom home schools her twin girls
+      so she is home most of the time<br />I am&nbsp; learning to sleep in a kennel
+      at night, lots of changes for a senior girl<br /><br />I am 11 years old, I
+      weigh _____ lbs, my adoption fee is $175 plus sales tax $7.88= $182.88</p><br><br><a
+      href='https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=14061219'
+      target='_blank'>Visit this organization's web site to see any additional information
+      available about this pet.</a><br><img src='https://tracker.rescuegroups.org/pet?14061219&a=3531&h='
+      width='0' height='0' alt='' />
+    PetCode: 14061219
+    PetID: 24511555
+    PetName: Zoe
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Border Collie
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: White
+    ContactPerson: 
+    Description: Snoopy is a male border collie that came to B-Squad after being released
+      from a commercial breeder in Missouri.<br/><br/>Snoop is a puppy that loves
+      to play. He enjoys chasing his foster brother and playing with toys. He is a
+      sweet pup who loves people and will stop to greet any person he comes across.<br/><br/>Snoopy&#39;s
+      adoption fee is $500 and includes his neuter when age appropriate through our
+      B-Squad spay/neuter program. He is up to date on age appropriate vaccinations,
+      monthly preventatives, and is microchipped. Please visit our website at www.bsquaddogrescue.com
+      to review our adoption process and complete an application. Thank you!
+    PetCode: 42480425
+    PetID: 26177586
+    PetName: SNOOPY
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Senior
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><span style=''font-size: 12pt; color:
+      #000000;''><strong>Hi! </strong></span><br /><span style=''font-size: 12pt;
+      color: #000000;''><strong>My name is Mohina. A beautiful name for a beautiful
+      girl!</strong></span><br /><br /><span style=''font-size: 12pt; color: #000000;''><strong>
+      I came to DDR with Bear, he was adopted by a family with kids, I didn''t stay
+      with him because I don''t like kids being rowdy.</strong></span><br /><span
+      style=''font-size: 12pt; color: #000000;''><strong>Our owner passed away and
+      we had no where to go. </strong></span><br /><span style=''font-size: 12pt;
+      color: #000000;''><strong>Our vet, Susan, really loved us and was determined
+      to find a place for us. </strong></span><br /><br /><span style=''font-size:
+      12pt; color: #000000;''><strong>I would love an adult only home, a fenced yard
+      to hunt in, and a person that likes to hang out with me on the couch in the
+      evening.</strong></span><br /><br /><span style=''font-size: 12pt; color: #000000;''><strong>Would
+      you like to be my forever home, I''m a pretty easy going girl :) <br />I am
+      a very young 15 yrs old, <br />I weigh 16.6 pounds, <br />my adoption fee is
+      $175 plus sales tax $7.88= $182.88.</strong></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=11755141''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?11755141&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 11755141-17-54
+    PetID: 18745070
+    PetName: Mohina
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Syd is a sweet boy looking for a home. He should be good with other
+      dogs, but would do best in a home with no children or cats. He is here because
+      he didn''t do well with the child in the house.<br />$95.00 Fee includes initial
+      vaccines, worming, microchip with registration, free vet health exam and spay/
+      neuter discount.<br /><br />Sponsor A Pet Program Part of the adoption fee has
+      been paid by Rosanna Rose  ($25.00).  The adoption fee is now $70.00.  Thank
+      you!<br> Primary Color: Black Brown<br> Weight: 56<br> Age: 6yrs 2mths 0wks'
+    PetCode: 9652
+    PetID: 26138579
+    PetName: Syd
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Australian Shepherd
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: White
+    ContactPerson: 
+    Description: Ryder is a mini aussie male that came to B-Squad after being released
+      by a commercial breeder in Missouri. Ryder is an amazing sweet and active boy.
+      Loves to play tug of war and belly rubs. Gets along great with his foster friends
+      (dog and cat). Potty training extremely well. Waits by door to go outside and
+      is doing well on a leash for walks.<br/><br/>Ryder&#39;s adoption fee is $500
+      and includes his neuter through our spay/neuter program. Ryder is up to date
+      on age appropriate vaccinations, monthly preventatives, and is microchipped.
+      Please visit our website at www.bsquaddogrescue.com to review our adoption process
+      and complete an application. Thank you!
+    PetCode: 42480372
+    PetID: 26177579
+    PetName: RYDER
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: Lhasa Apso
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Doug or Diane
+      for more information about this pet.</strong><span style=''font-size: 12pt;''>Hi,
+      I''m Benji.&nbsp;<br />I came to DDR from the local shelter. I was flea infested
+      and have some skin issues because of it.<br /> No more fleas but I still have
+      some dry skin because of the flea dermatitis. My foster mom gives me coconut
+      oil and special shampoo to help. <br />I am a very social boy. I am afraid of
+      small children. I have a bad habit of jumping up, I don''t realize I''m 30 lbs
+      ;) <br />I WooWoo if you don''t give me enough attention.&nbsp; <br />I do need
+      a fenced yard as I love playing ball, running the doxie 500 and chasing with
+      the other foster dogs in the house.<br />Can<span>&nbsp;you be my furever home?&nbsp;<br
+      />I am 7 yrs old, I weigh about 30 pounds, my adoption fee is $250 plus sales
+      tax $11.25= $261.25</span></span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=12830891''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?12830891&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 12830891
+    PetID: 25308218
+    PetName: Benji
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Rat Terrier
+    SecondaryBreed: 
+    Age: Puppy
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Windsor is a sweet little guy looking for a home. He enjoys to play
+      and explore. Windsor is here because owner has too many animals. <br />$165.00  Fee
+      includes initial vaccines, worming, microchip with registration, free vet health
+      exam and spay/ neuter discount.<br> Primary Color: Tan<br> Secondary Color:
+      White<br> Weight: 6<br> Age: 0yrs 0mths 9wks'
+    PetCode: 10036
+    PetID: 26404145
+    PetName: Windsor
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: Red/Golden/Orange/Chestnut
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><span style=''font-size: 12pt;''>Hi!
+      I''m Barney.<br /> I am a very happy boy, I like being with my person.<br />
+      I can get a tad protective if you allow me to, I just want to protect the ones
+      I love, which is pretty typical for a dachshund.<br />I''m a big explorer so
+      I need a fenced yard so I don''t wander off following my nose and get lost.<br
+      /><br />I go in for a dental on Valentine''s Day. Dr Paul wants to look at a
+      couple other things medically before DDR lets me go to a new home of my own.<br
+      />Update 3/3/2018 I am feeling very good now that I have had a dental and a
+      couple of bad teeth pulled. Dr Paul says the spot on my liver they saw on ultrasound
+      was like a big blood blister and the tissue samples came back as normal liver
+      cells....YAY! I will be ready to go to a furever home of my own after I get
+      my oral sutures rechecked next week.<br /><br />I am good with other dogs, I
+      am a food hound so you must feed me on a schedule and measured amounts. I can
+      be food aggressive with other dogs.<br />I lived with an elderly woman until
+      she had to go to the nursing home, I then lived on the farm with a couple that
+      loved me very much but I started getting too protective of them and they felt
+      they couldn''t keep me anymore.&nbsp;<br />I need boundaries and to be walked
+      on a leash.<br />I will run after people and nip at their ankles to protect
+      my people and my space.<br /><br />Are you that special person for me?<br />My
+      name is Barney, I am 11 years old, <br />weigh 16 lbs, <br />my adoption fee
+      is $175 plus sales tax $7.88= $182.88&nbsp;</span><br><br><a href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=12645468''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?12645468&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 12645468-18-9
+    PetID: 21035109
+    PetName: Barney
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black
+    ContactPerson: 
+    Description: '***NOT ACCEPTING APPLICATIONS AT THIS TIME. CURRENTLY GOING THROUGH
+      OUR INTAKE VETTING PROCESS***'
+    PetCode: 42480685
+    PetID: 26177580
+    PetName: BOOMSTICK
+    Purebred: 0
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Columbus
+    AddressLine1: 2124 13th St
+    AddressLine2: 
+    AddressPostalCode: 68601
+    AddressState: NE
+    AddressCountryCode: US
+    ShelterName: Paws and Claws Adoption Center
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Boxer
+    SecondaryBreed: 
+    Age: Senior
+    Size: Med. 26-60 lbs (12-27 kg)
+    Color: Black - With Tan, Yellow Or Fawn
+    ContactPerson: Jan Berry
+    Description: 
+    PetCode: 
+    PetID: 26298041
+    PetName: Spinks
+    Purebred: 0
+    WebsiteUrl: http://www.pawsandclawsne.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Australian Shepherd
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Small 25 lbs (11 kg) or less
+    Color: Brown/Chocolate
+    ContactPerson: 
+    Description: '***NOT ACCEPTING APPLICATIONS AT THIS TIME. CURRENTLY GOING THROUGH
+      OUR INTAKE VETTING PROCESS***'
+    PetCode: 42480389
+    PetID: 26177583
+    PetName: RUBBLE
+    Purebred: 1
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Miniature Pinscher
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Dukers is a handsome boy searching for a loving forever family.
+      He should be good with children and other animals. He is very treat motivated,
+      and loves taking a nice, long nap in his person''s lap. He is here because there
+      were no homes available for him. <br />$135.00 Fee includes initial vaccines,
+      worming, microchip with registration, free vet health exam and spay/ neuter
+      discount.<br> Primary Color: Black<br> Secondary Color: Brown<br> Weight: 7.5625<br>
+      Age: 3yrs 0mths 2wks'
+    PetCode: 9997
+    PetID: 26363301
+    PetName: Dukers
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Brandon
+    AddressLine1: PO Box 583
+    AddressLine2: 
+    AddressPostalCode: 57005
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: B-Squad Dog Rescue
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Labrador Retriever
+    SecondaryBreed: 
+    Age: Puppy
+    Size: Large 61-100 lbs (28-45 kg)
+    Color: Black
+    ContactPerson: 
+    Description: Moose is a 4 month old black lab mix that came to B-Squad as an owner
+      surrender. Moose was flea infested when he arrived to B-Squad. A little TLC
+      and some medication and he has received his veterinary clearance for adoption!<br/><br/>Moose
+      is a typical lab! He loves to please and be by his humans. He does great with
+      his foster siblings and loves spending snuggle time on the couch with his foster
+      family.<br/><br/>Moose&#39;s adoption fee is $425 and includes his neuter when
+      age appropriate through our B-Squad program. He is up to date on age appropriate
+      vaccinations, monthly preventatives, and is microchipped. Please visit our website
+      at bsquaddogrescue.com to reivew our adoption process and complete an application.
+      Thank you!
+    PetCode: 42480702
+    PetID: 26177578
+    PetName: MOOSE
+    Purebred: 0
+    WebsiteUrl: http://www.bsquaddogrescue.com
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Female
+    PrimaryBreed: Shepherd (Unknown Type)
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Shiloh is a pretty, spayed girl looking for her forever family.
+      She''d do best in a home where there she can be the only animal and there are
+      no children. She will run out of a door if she gets a chance, so she''d do well
+      with a fenced in yard that she can''t run out of. She knows how to sit, shake,
+      and high five. Shiloh is here because her owner could no longer keep her. <br
+      />$95.00 Fee includes initial vaccines, worming, microchip with registration,
+      free vet health exam and spay/ neuter discount.<br> Primary Color: Black<br>
+      Weight: 45<br> Age: 7yrs 1mths 4wks'
+    PetCode: 9722
+    PetID: 25836481
+    PetName: Shiloh
+    Purebred: 0
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux City
+    AddressLine1: 1015 Tri-View Avenue
+    AddressLine2: Downtown Sioux City
+    AddressPostalCode: 51103
+    AddressState: IA
+    AddressCountryCode: US
+    ShelterName: Siouxland Humane Society
+    Species: Dog
+    Sex: Male
+    PrimaryBreed: Rottweiler
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: 
+    Description: 'Ruger is a handsome boy searching for his forever family. He is
+      neutered, house trained, and should be good with children. He does not like
+      to be alone. He isn''t a fan of dogs he hasn''t met, and can sometimes act out
+      when he meets a new one. He would do best in a home with no cats or small animals.
+      Ruger knows how to sit, shake, high five, and lay down. He would love a home
+      with a large fenced in yard, because he does know how to escape yards. If you
+      are home a lot, Ruger is the perfect match for you!<br />$135.00 Fee includes
+      initial vaccines, worming, microchip with registration, free vet health exam
+      and spay/ neuter discount.<br> Primary Color: Black<br> Secondary Color: Brown<br>
+      Weight: 110<br> Age: 4yrs 0mths 2wks'
+    PetCode: 9977
+    PetID: 26378957
+    PetName: Ruger
+    Purebred: 1
+    WebsiteUrl: http://siouxlandhumanesociety.org
+    DetailsUrl: 
+    PhotoUrl: 
+  - AddressCity: Sioux Falls
+    AddressLine1: 7505 Mystic Drive
+    AddressLine2: 
+    AddressPostalCode: 57110
+    AddressState: SD
+    AddressCountryCode: US
+    ShelterName: Dakota Dachshund Rescue
+    Species: Dog
+    Sex: 
+    PrimaryBreed: Dachshund
+    SecondaryBreed: 
+    Age: Adult
+    Size: 
+    Color: 
+    ContactPerson: Doug or Diane Wade
+    Description: '<font color=red>You can fill out an adoption application online
+      on our official website.</font><br><br><strong>Please contact Diane for more
+      information about this pet.</strong><p style=''text-align: center;''><span style=''font-family:
+      verdana,geneva;''><span style=''font-size: 14pt;''>AFRAID OF LONG-TERM </span></span><span
+      style=''font-size: 36pt; font-family: TimesNewRoman,Bold;''><span style=''font-size:
+      36pt; font-family: TimesNewRoman,Bold;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 14pt;''>COMMITMENT?&nbsp;</span></span></span></span>&nbsp;</span></span></p>
+      <p style=''text-align: center;''><span style=''font-size: 24pt; font-family:
+      ArialBlack;''><span style=''font-size: 24pt; font-family: ArialBlack;''><span
+      style=''font-family: verdana,geneva;''><span style=''font-size: 12pt;''><span
+      style=''color: #0000ff;''><span style=''font-size: 18pt;''>TRY FOSTERING!</span></span></span></span>
+      </span></span></p> <p style=''text-align: center;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      12pt;''><span style=''font-family: verdana,geneva;''><span style=''font-size:
+      12pt;''>&nbsp;</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+      <p style=''text-align: center;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 12pt;''><span style=''font-family:
+      verdana,geneva;''><span style=''font-size: 12pt;''>Dakota Dachshund Rescue always&nbsp;</span></span></span><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt; font-family:
+      ArialBlack;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt;''><span style=''font-size:
+      18pt;''><span style=''font-size: 18pt;''><span style=''font-size: 18pt;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt;''><span style=''font-size: 18pt;''><span style=''font-size: 18pt;''><span
+      style=''font-size: 18pt;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt;''><span style=''font-size: 18pt;''><span style=''font-size: 18pt;''><span
+      style=''font-size: 18pt;''><span style=''font-size: 18pt; font-family: ArialBlack;''><span
+      style=''font-size: 18pt; font-family: ArialBlack;''><span style=''font-size:
+      18pt; font-family: ArialBlack;''><span style=''font-size: 18pt;''><span style=''font-size:
+      18pt;''><span style=''font-size: 18pt;''><span style=''font-size: 18pt;''><span
+      style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''>needs more volunteers to fulfill our mission of rescuing
+      Dachshunds and Dachshund mixes. </span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+      <p><span style=''font-family: verdana,geneva;''><span style=''font-size: 12pt;''>We
+      especially need foster homes, but also welcome anyone who would like to help
+      with transporting, </span></span><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''>fundraising, adoption and education events, or any
+      number of ways to support our rescue group. </span></span></p> <p><span style=''font-family:
+      verdana,geneva;''><span style=''font-size: 12pt;''>If you are an adult (18 years
+      or older) and can offer some of your time and love for our dachshunds, </span></span><span
+      style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-size: 10pt; font-family:
+      ComicSansMS;''><span style=''font-size: 10pt; font-family: ComicSansMS;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 12pt;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''>please go to our website </span></span></span><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-size: 10pt; font-family:
+      ComicSansMS;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt; color: #000080; font-family: ComicSansMS;''><span
+      style=''font-size: 10pt; color: #000080; font-family: ComicSansMS;''><span style=''color:
+      #000080; font-family: ComicSansMS;''><span style=''font-size: 12pt;''><span
+      style=''font-family: verdana,geneva;''><span style=''font-size: 12pt;''><a href=''http://www.dakotadachshundrescue.org''>www.dakotadachshundrescue.org</a>
+      </span></span></span></span></span></span><span style=''font-size: 10pt; font-family:
+      ComicSansMS;''><span style=''font-size: 10pt; font-family: ComicSansMS;''><span
+      style=''font-size: 12pt;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''>for more information and to complete a </span></span></span><span
+      style=''font-family: verdana,geneva;''><span style=''font-size: 12pt;''>membership
+      application.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p>
+      <p><span style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-size: 10pt; font-family:
+      ComicSansMS;''><span style=''font-size: 10pt; font-family: ComicSansMS;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-size: 10pt; font-family:
+      ComicSansMS;''><span style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span
+      style=''font-size: 10pt;''><span style=''font-size: 10pt;''><span style=''font-size:
+      10pt;''><span style=''font-size: 10pt; font-family: ComicSansMS;''><span style=''font-size:
+      10pt; font-family: ComicSansMS;''><span style=''font-family: verdana,geneva;''><span
+      style=''font-size: 12pt;''>Please share with us in helping a rescued dog find
+      his forever, loving home.&nbsp;</span></span>&nbsp;<span style=''font-family:
+      verdana,geneva;''><span style=''font-size: 12pt;''>You will find it to be one
+      of life''s most rewarding and fulfilling experiences.</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p><br><br><a
+      href=''https://dakotadachshundrescue.rescuegroups.org/animals/detail?AnimalID=2024685''
+      target=''_blank''>Visit this organization''s web site to see any additional
+      information available about this pet.</a><br><img src=''https://tracker.rescuegroups.org/pet?2024685&a=3531&h=''
+      width=''0'' height=''0'' alt='''' />'
+    PetCode: 2024685
+    PetID: 13923516
+    PetName: Afraid of Commitment
+    Purebred: 1
+    WebsiteUrl: http://dakotadachshundrescue.org
+    DetailsUrl: 
+    PhotoUrl: 
+  PhotoTextures:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
