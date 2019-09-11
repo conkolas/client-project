@@ -29,6 +29,10 @@ public class PetAvatarManager : MonoBehaviour {
     private void Update() {
         if (!_isRunning) return;
 
+        UpdatePositionAndRotation();
+    }
+
+    private void UpdatePositionAndRotation() {
         for (int i = 0; i < _avatars.Count; i++) {
             _currentPetScaleOffset.y = PetList.Pets[i].transform.localScale.y / 2f;
             _avatars[i].transform.localPosition = PetList.Pets[i].transform.position + AvatarOffset + _currentPetScaleOffset;
