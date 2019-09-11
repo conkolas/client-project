@@ -3,6 +3,9 @@ using UnityEngine;
 
 [RequireComponent(typeof(MeshRenderer))]
 public class Pet : MonoBehaviour {
+    private int _id { get; set; }
+    public int ID => _id;
+
     private string _name { get; set; }
     public string Name => _name;
 
@@ -21,6 +24,7 @@ public class Pet : MonoBehaviour {
     [SerializeField] private Vector3 DefaultScale = new Vector3(1f, 1f, 1f);
 
     public void InitializePet(PetData petData, Texture2D petPhoto) {
+        _id = petData.PetID;
         _name = petData.PetName;
         _color = petData.Color;
         _size = petData.Size;

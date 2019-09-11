@@ -6,7 +6,14 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class StateController : MonoBehaviour {
+
+    [Header("State")]
     public PluggableState CurrentState;
+    // placholder value to mark that current state raimns the same
+    public PluggableState RemainState;
+
+    [Header("Player")]
+    public IntegerVariable FocusPetID;
 
     [Header("Waypoints")]
     public Transform PlayGroundTransform;
@@ -19,11 +26,17 @@ public class StateController : MonoBehaviour {
     private NavMeshAgent _agent;
     public NavMeshAgent Agent => _agent;
 
+    private Pet _pet;
+    public Pet Pet => _pet;
+
     private WaypointsAsset _waypoints;
     public List<Vector3> Waypoints => _waypoints.Waypoints;
 
     private int _nextWaypoint = 0;
     public int NextWaypoint => _nextWaypoint;
+
+    private GameObject _playerGameObject;
+    public GameObject PlayerGameObject => _playerGameObject;
 
     public void SetupAI(bool active) {
         _isActive = active;
@@ -34,7 +47,19 @@ public class StateController : MonoBehaviour {
         _nextWaypoint = waypoint;
     }
 
+    public void ChangeState(PluggableState nextState) {
+        if (nextState != RemainState) {
+            CurrentState = nextState;
+        }
+    }
+
     private void Awake() {
+        _playerGameObject = GameObject.FindGameObjectWithTag("Player");
+        if (_playerGameObject == null) {
+            Debug.LogError("Player game object not found.");
+        }
+
+        _pet = GetComponent<Pet>();
         _agent = GetComponent<NavMeshAgent>();
         _waypoints = ScriptableObject.CreateInstance<WaypointsAsset>();
         _waypoints.Waypoints = PoissonDiscSampling.Generate3D(WaypointRadius,
