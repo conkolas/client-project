@@ -1,10 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Crosshair : MonoBehaviour {
     public IntegerVariable FocusedPetID;
+    public IntegerVariable HoveredPetID;
     public float ActiveDistance = 2f;
 
     private Ray _ray;
@@ -22,10 +20,6 @@ public class Crosshair : MonoBehaviour {
     }
 
     private void Update() {
-        _lastCheckTime += Time.deltaTime;
-        if (_lastCheckTime < 0.1f) return;
-        _lastCheckTime = 0;
-
         SetPointerTarget();
 
         if (Input.GetMouseButtonDown(0)) {
@@ -39,6 +33,16 @@ public class Crosshair : MonoBehaviour {
         _animator.SetBool("Aiming", _aiming);
 
         _currentClickTarget = _aiming ? _hit.transform.gameObject : null;
+        if (_aiming) {
+            Pet pet = _currentClickTarget.GetComponent<Pet>();
+            if (pet != null) {
+                HoveredPetID.SetValue(pet.ID);
+            } else {
+                HoveredPetID.SetValue(0);
+            }
+        } else {
+            HoveredPetID.SetValue(0);
+        }
     }
 
     private void OnMouseClick() {

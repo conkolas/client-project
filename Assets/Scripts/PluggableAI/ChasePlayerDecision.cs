@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu (menuName = "Pluggable AI/Decisions/Chase Player")]
-public class ChaseDecision : PluggableDecision
+public class ChasePlayerDecision : PluggableDecision
 {
     public override bool Decide(StateController controller) {
         bool targetInRangeAndFocused = Chase(controller);

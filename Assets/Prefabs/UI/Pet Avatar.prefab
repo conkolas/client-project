@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3531853407569882315}
   - component: {fileID: 5706972228182674629}
   - component: {fileID: -6723676672891650997}
+  - component: {fileID: 6342628436792693097}
   m_Layer: 0
   m_Name: Pet Avatar
   m_TagString: Untagged
@@ -115,6 +116,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NameLabel: {fileID: 2086697340229881722}
   PhotoIcon: {fileID: 2792567903861001326}
+  HoveredPetID: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
+  FocusedPetID: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
+--- !u!95 &6342628436792693097
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073461954240126422}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39721b504821f466ab509f3a62ed9caa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2221544552062310874
 GameObject:
   m_ObjectHideFlags: 0

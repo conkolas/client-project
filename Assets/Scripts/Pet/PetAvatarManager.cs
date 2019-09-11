@@ -20,7 +20,7 @@ public class PetAvatarManager : MonoBehaviour {
 
         foreach (var pet in PetList.Pets) {
             PetAvatar avatar = Instantiate(PetAvatar, pet.transform.position, pet.transform.rotation, transform);
-            avatar.SetName(pet.Name);
+            avatar.Initialize(pet);
             avatar.SetPhoto(pet.Photo);
             _avatars.Add(avatar);
         }
