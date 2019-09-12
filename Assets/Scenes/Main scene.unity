@@ -421,6 +421,7 @@ MonoBehaviour:
   PetAvatar: {fileID: -6723676672891650997, guid: 40410e3b44b6b4697b3ad26b75fbe17e,
     type: 3}
   AvatarOffset: {x: 0, y: 0.1, z: 0}
+  SmoothFollow: 10
 --- !u!4 &637610335
 Transform:
   m_ObjectHideFlags: 0
@@ -957,6 +958,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64216d2eb3a1c47788ae4f43411bec12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FocusedPetID: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
+  HoveredPetID: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
   OnGameStart: {fileID: 11400000, guid: 939c46dc2ee084fbb8628594d502ca86, type: 2}
 --- !u!1 &1285915345
 GameObject:
@@ -1369,6 +1372,11 @@ PrefabInstance:
       propertyPath: PetDataListFetcher
       value: 
       objectReference: {fileID: 705893350}
+    - target: {fileID: 3146136005790492739, guid: 2c05213771d3b447487a7cabec288012,
+        type: 3}
+      propertyPath: EndIndex
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3146136006198378584, guid: 2c05213771d3b447487a7cabec288012,
         type: 3}
       propertyPath: m_IsActive
@@ -2255,5 +2263,10 @@ PrefabInstance:
       propertyPath: m_AnchorMin.y
       value: 0.3999967
       objectReference: {fileID: 0}
+    - target: {fileID: 4719250189418445417, guid: bfa17e7b1cafb4f768a2314072d93d82,
+        type: 3}
+      propertyPath: Controller
+      value: 
+      objectReference: {fileID: 560031970}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfa17e7b1cafb4f768a2314072d93d82, type: 3}

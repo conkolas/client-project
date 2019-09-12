@@ -3,6 +3,7 @@
 public class Crosshair : MonoBehaviour {
     public IntegerVariable FocusedPetID;
     public IntegerVariable HoveredPetID;
+    public PetInfoPanel PetInfoPanel;
     public float ActiveDistance = 2f;
 
     private Ray _ray;
@@ -20,6 +21,8 @@ public class Crosshair : MonoBehaviour {
     }
 
     private void Update() {
+        if (PetInfoPanel.IsOpen) return;
+
         SetPointerTarget();
 
         if (Input.GetMouseButtonDown(0)) {

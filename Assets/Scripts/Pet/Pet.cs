@@ -15,6 +15,12 @@ public class Pet : MonoBehaviour {
     private string _size { get; set; }
     public string Size => _size;
 
+    private string _age { get; set; }
+    public string Age => _age;
+
+    private string _breed { get; set; }
+    public string Breed => _breed;
+
     private string _description { get; set; }
     public string Description => _description;
 
@@ -31,6 +37,8 @@ public class Pet : MonoBehaviour {
         _name = petData.PetName;
         _color = petData.Color;
         _size = petData.Size;
+        _breed = petData.PrimaryBreed;
+        _age = petData.Age;
         _description = petData.Description;
         _photo = petPhoto;
 

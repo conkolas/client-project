@@ -226,6 +226,6 @@ MonoBehaviour:
   FocusPetID: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
   PlayGroundTransform: {fileID: 5588888896229029305, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
     type: 3}
-  WaypointRadius: 2.5
-  DisplayRadius: 0.1
+  WaypointRadius: 1
+  DisplayRadius: 0.5
   WaypointDebug: 0

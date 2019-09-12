@@ -89,8 +89,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a431f262a7354c529d663d1b6ffc116, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FocusedPetID: {fileID: 0}
-  HoveredPetID: {fileID: 0}
+  FocusedPetID: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
+  HoveredPetID: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
+  PetInfoPanel: {fileID: 7137327639675749431, guid: 757f74e934f7b48d6b1c5327c87bbc77,
+    type: 3}
   ActiveDistance: 2
 --- !u!95 &7831273898537339353
 Animator:
