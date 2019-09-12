@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{be692cc5-b5ad-492a-b615-61504b56d773}">
+		<property name="assetPath">
+			<value>June_Songbirds.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>153.96571428571428</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5a3fa66d-e474-4531-aae4-f4dd62518cd5}</destination>
+		</relationship>
+	</object>
+</objects>
