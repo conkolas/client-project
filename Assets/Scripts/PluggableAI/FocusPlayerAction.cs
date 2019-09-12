@@ -14,6 +14,7 @@ public class FocusPlayerAction : PluggableAction {
         NavMeshAgent agent = controller.Agent;
         if (agent.remainingDistance < 2f) {
             agent.velocity = Vector3.zero;
+            agent.updatePosition = false;
             agent.Stop();
         }
 

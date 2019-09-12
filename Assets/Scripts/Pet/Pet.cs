@@ -15,6 +15,9 @@ public class Pet : MonoBehaviour {
     private string _size { get; set; }
     public string Size => _size;
 
+    private string _description { get; set; }
+    public string Description => _description;
+
     private Texture2D _photo { get; set; }
     public Texture2D Photo => _photo;
 
@@ -28,6 +31,7 @@ public class Pet : MonoBehaviour {
         _name = petData.PetName;
         _color = petData.Color;
         _size = petData.Size;
+        _description = petData.Description;
         _photo = petPhoto;
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};

@@ -19,6 +19,8 @@ public class SearchFormManager : MonoBehaviour {
     public GameEvent OnSearchError;
     public GameEvent OnSearchSuccess;
 
+    private Animator _animator;
+
     /*
      * Applies values to PetListFetch from search form fields and fetches new data
      */
@@ -49,6 +51,16 @@ public class SearchFormManager : MonoBehaviour {
 
         PetDataListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
     }
+
+    public void ShowSearchForm() {
+        _animator.SetBool("Active", true);
+    }
+
+    public void HideSearchForm() {
+        _animator.SetBool("Active", false);
+    }
+
+    private void Start() { _animator = GetComponent<Animator>(); }
 
     /*
      * Toggles search button active when postal code is sufficient length

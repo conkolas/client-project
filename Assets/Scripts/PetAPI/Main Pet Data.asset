@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7a286ae1ac8648218c4ee4285136fc2, type: 3}
-  m_Name: FocusedPetID
+  m_Script: {fileID: 11500000, guid: 375874968ac074cb3957a1dfdf20c352, type: 3}
+  m_Name: Main Pet Data
   m_EditorClassIdentifier: 
-  Description: 
-  Value: 0
+  TotalPets: 0
+  ReturnedExactMatches: 0
+  Pets: []
+  PhotoTextures: []

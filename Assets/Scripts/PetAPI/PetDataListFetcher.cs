@@ -116,7 +116,6 @@ public class PetDataListFetcher : MonoBehaviour {
             var pet = _currentPetDataListResponse.PetsData[i];
             if (pet.DetailsUrl.Length <= 0) continue;
 
-            // @TODO fix order
             StartCoroutine(RequestTexture(i, pet.PhotoUrl, PetPhotoResponseCallback));
             StartCoroutine(RequestRoutine(i, pet.DetailsUrl, PetResponseCallback));
         }
