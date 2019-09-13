@@ -22,19 +22,7 @@ public class PetInfoPanel : MonoBehaviour {
     public Image PetPhoto;
 
     private Animator _animator;
-
-    void Start() {
-        _animator = GetComponent<Animator>();
-        Controller.UnlockPlayer();
-    }
-
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0) && HoveredPetID != 0) {
-            Initialize(GetPetByID(HoveredPetID));
-            OpenPanel();
-        }
-    }
+    public bool IsOpen => _animator != null && _animator.GetBool("Active");
 
     public void OpenPanel() {
         _animator.SetBool("Active", true);
@@ -46,8 +34,23 @@ public class PetInfoPanel : MonoBehaviour {
         Controller.UnlockPlayer();
     }
 
+    private void Start() {
+        _animator = GetComponent<Animator>();
+        Controller.UnlockPlayer();
+    }
+
+    private void Update()
+    {
+        if (Input.GetMouseButtonDown(0) && HoveredPetID != 0 && !_animator.GetBool("Active")) {
+            Initialize(GetPetByID(HoveredPetID));
+            OpenPanel();
+        }
+    }
+
     private void Initialize(Pet pet) {
         PetName.text = pet.Name;
+        PetBreed.text = pet.Breed;
+        PetAge.text = pet.Age;
         PetColor.text = pet.Color;
         PetSize.text = pet.Size;
         PetDescription.text = pet.Description;
