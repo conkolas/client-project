@@ -38,6 +38,8 @@ public class StateController : MonoBehaviour {
     private GameObject _playerGameObject;
     public GameObject PlayerGameObject => _playerGameObject;
 
+    private Animator _animator;
+
     public void SetupAI(bool active) {
         _isActive = active;
         _agent.enabled = _isActive;
@@ -61,6 +63,7 @@ public class StateController : MonoBehaviour {
 
         _pet = GetComponent<Pet>();
         _agent = GetComponent<NavMeshAgent>();
+        _animator = GetComponent<Animator>();
         _waypoints = ScriptableObject.CreateInstance<WaypointsAsset>();
         _waypoints.Waypoints = PoissonDiscSampling.Generate3D(WaypointRadius,
             new Vector2(PlayGroundTransform.localScale.x, PlayGroundTransform.localScale.z));
@@ -79,6 +82,7 @@ public class StateController : MonoBehaviour {
     private void Update() {
         if (!_isActive) return;
 
+        _animator.SetFloat("Speed", _agent.velocity.magnitude / _agent.speed);
         CurrentState.UpdateState(this);
     }
 

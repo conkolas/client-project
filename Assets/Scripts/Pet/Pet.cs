@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.AI;
 
-[RequireComponent(typeof(MeshRenderer))]
 public class Pet : MonoBehaviour {
     private int _id { get; set; }
     public int ID => _id;
@@ -27,10 +27,13 @@ public class Pet : MonoBehaviour {
     private Texture2D _photo { get; set; }
     public Texture2D Photo => _photo;
 
+    public SkinnedMeshRenderer MeshRenderer;
 
     [SerializeField] private Material DefaultMaterial;
     [SerializeField] private Color DefaultColor = UnityEngine.Color.gray;
     [SerializeField] private Vector3 DefaultScale = new Vector3(1f, 1f, 1f);
+
+    private NavMeshAgent _agent;
 
     public void InitializePet(PetData petData, Texture2D petPhoto) {
         _id = petData.PetID;
@@ -41,10 +44,14 @@ public class Pet : MonoBehaviour {
         _age = petData.Age;
         _description = petData.Description;
         _photo = petPhoto;
+        _agent = GetComponent<NavMeshAgent>();
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
-        GetComponent<MeshRenderer>().material = petMaterial;
+        Material[] mats = MeshRenderer.materials;
+        mats[0] = petMaterial;
+        MeshRenderer.materials = mats;
         transform.localScale = GetPetSize();
+        _agent.speed = transform.localScale.x;
     }
 
     private Color GetPetColor() {
