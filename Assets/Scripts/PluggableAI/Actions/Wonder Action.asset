@@ -13,3 +13,7 @@ MonoBehaviour:
   m_Name: Wonder Action
   m_EditorClassIdentifier: 
   MaxTimeToDestination: 5
+  MinWaypointsUntilSit: 2
+  MaxWaypointsUntilSit: 8
+  MinSittingTime: 5
+  MaxSittingTime: 10
