@@ -793,6 +793,7 @@ GameObject:
   - component: {fileID: 1278779693}
   - component: {fileID: 1278779695}
   - component: {fileID: 1278779696}
+  - component: {fileID: 1278779697}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -971,6 +972,29 @@ MonoBehaviour:
   FocusedPetID: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
   HoveredPetID: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
   OnGameStart: {fileID: 11400000, guid: 939c46dc2ee084fbb8628594d502ca86, type: 2}
+--- !u!114 &1278779697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278779691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Background sounds/Ambient sounds origional
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1285915345
 GameObject:
   m_ObjectHideFlags: 0
