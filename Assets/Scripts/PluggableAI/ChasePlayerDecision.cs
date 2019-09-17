@@ -6,11 +6,6 @@ using UnityEngine;
 public class ChasePlayerDecision : PluggableDecision
 {
     public override bool Decide(StateController controller) {
-        bool targetInRangeAndFocused = Chase(controller);
-        return targetInRangeAndFocused;
-    }
-
-    private bool Chase(StateController controller) {
         return controller.HoverPetID == controller.Pet.ID;
     }
 }

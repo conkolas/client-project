@@ -4,19 +4,17 @@ using UnityEngine.UI;
 
 public class PetAvatar : MonoBehaviour {
 
-    public TextMeshProUGUI NameLabel;
     public Image PhotoIcon;
     public IntegerVariable HoveredPetID;
     public IntegerVariable FocusedPetID;
 
     private Animator _animator;
     private Pet _pet;
+    public Pet Pet => _pet;
 
     public void Initialize(Pet pet) {
-        NameLabel.text = pet.Name;
         _pet = pet;
     }
-
 
     public void SetPhoto(Texture2D texture) {
         PhotoIcon.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
@@ -28,6 +26,23 @@ public class PetAvatar : MonoBehaviour {
 
     private void Update() {
         _animator.SetBool("Hover", _pet.ID == HoveredPetID);
-        _animator.SetBool("Active", _pet.ID == FocusedPetID);
     }
+
+    public void SetPhotoHover(bool state) {
+        _animator.SetBool("PhotoHover", state);
+    }
+
+    public void SetSitButtonHover(bool state) {
+        _animator.SetBool("SitButtonHover", state);
+    }
+
+    public void SetJumpButtonHover(bool state) {
+        _animator.SetBool("JumpButtonHover", state);
+    }
+
+    public void SetPetButtonHover(bool state) {
+        _animator.SetBool("PetButtonHover", state);
+    }
+
+
 }

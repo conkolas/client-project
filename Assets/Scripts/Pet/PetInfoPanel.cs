@@ -24,30 +24,25 @@ public class PetInfoPanel : MonoBehaviour {
     private Animator _animator;
     public bool IsOpen => _animator != null && _animator.GetBool("Active");
 
-    public void OpenPanel() {
+    public void OpenPanel(int petID) {
+        Initialize(GetPetByID(petID));
         _animator.SetBool("Active", true);
         Controller.LockPlayer();
     }
 
     public void ClosePanel() {
+        Debug.Log("ClosePanel");
         _animator.SetBool("Active", false);
         Controller.UnlockPlayer();
     }
 
     private void Start() {
         _animator = GetComponent<Animator>();
-        Controller.UnlockPlayer();
     }
 
-    private void Update()
-    {
-//        if (Input.GetMouseButtonDown(0) && HoveredPetID != 0 && !_animator.GetBool("Active")) {
-//            Initialize(GetPetByID(HoveredPetID));
-//            OpenPanel();
-//        }
-    }
 
     private void Initialize(Pet pet) {
+
         PetName.text = pet.Name;
         PetBreed.text = pet.Breed;
         PetAge.text = pet.Age;
@@ -57,7 +52,7 @@ public class PetInfoPanel : MonoBehaviour {
         PetPhoto.sprite = Sprite.Create(pet.Photo, new Rect(0, 0, pet.Photo.width, pet.Photo.height), Vector2.zero);
     }
 
-    private Pet GetPetByID(IntegerVariable petID) {
+    private Pet GetPetByID(int petID) {
         Pet result = null;
         foreach (var pet in PetList.Pets) {
             if (pet.ID == petID) {
