@@ -65,7 +65,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Black
+  m_text: Black - With White
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -544,7 +544,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Pet name
+  m_text: Awnie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1090,7 +1090,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PetList: {fileID: 11400000, guid: e752853eeb36b409c88608f2df00fd12, type: 2}
-  Controller: {fileID: 0}
+  Controller: {fileID: 3135673572128285883, guid: ee1592b401a2b4fa3abe8694f89c3422,
+    type: 3}
   HoveredPetID: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
   PetName: {fileID: 5363105023578944105}
   PetBreed: {fileID: 2119132114766150972}
@@ -1357,7 +1358,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: breed
+  m_text: German Shorthaired Pointer
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1671,7 +1672,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 11
+  m_text: Young
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2449,7 +2450,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Small
+  m_text: Large 61-100 lbs (28-45 kg)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2716,25 +2717,15 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: 'asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd
-    asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd
-    asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd
-    as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das
-    das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad
-    asd asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd
-    asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd
-    asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as
-    das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das das
-    dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd
-    asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd
-    asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd
-    as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das
-    das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad
-    asd asd asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd
-    asd asd asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd
-    asd as das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as
-    das das dsad asd asd asd asd asd as das das dsad asd asd asd asd asd as das das
-    dsad asd asd asd asd asd as das das dsad asd '
+  m_text: This fireball is the sweetest dog you could ever ask for. She will be 3
+    in October and has a lot of puppy left in her. She loves children and jumping
+    on the trampoline with them. She is learning her leash manners, loves to walk
+    and go running. She is quick to catching on to commands. She does know how to
+    sit and stay. She is looking for an active family who will include her in all
+    their activities. She loves water as you can see her dipping her paws in the water
+    bucket in one of the posted pics.  Awnie will be spayed before an adoption takes
+    place.  If you feel Awnie would make a great addition to your family give us a
+    call at 402-336-5435.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
