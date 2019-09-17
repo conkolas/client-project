@@ -4,12 +4,10 @@ using UnityEngine;
 
 [CreateAssetMenu (menuName = "Pluggable AI/Decisions/Focus Player")]
 public class FocusPlayerDecision : PluggableDecision {
-    public override bool Decide(StateController controller) {
-        float distance = (controller.transform.position - controller.PlayerGameObject.transform.position)
-            .magnitude;
-        bool arrivedAndFocused = distance < 2f && controller.FocusPetID == controller.Pet.ID;
-        controller.Agent.destination = controller.PlayerGameObject.transform.position;
+    public float FocusDistance = 2f;
 
+    public override bool Decide(StateController controller) {
+        bool arrivedAndFocused = controller.Agent.remainingDistance < FocusDistance;
         return arrivedAndFocused;
     }
 }

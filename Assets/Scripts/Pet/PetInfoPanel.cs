@@ -41,10 +41,10 @@ public class PetInfoPanel : MonoBehaviour {
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0) && HoveredPetID != 0 && !_animator.GetBool("Active")) {
-            Initialize(GetPetByID(HoveredPetID));
-            OpenPanel();
-        }
+//        if (Input.GetMouseButtonDown(0) && HoveredPetID != 0 && !_animator.GetBool("Active")) {
+//            Initialize(GetPetByID(HoveredPetID));
+//            OpenPanel();
+//        }
     }
 
     private void Initialize(Pet pet) {

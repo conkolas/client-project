@@ -1,11 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.AI;
 
 [CreateAssetMenu(menuName = "Pluggable AI/Actions/Chase Player")]
 public class ChasePlayerAction : PluggableAction {
-
     public override void Act(StateController controller) {
         Chase(controller);
     }

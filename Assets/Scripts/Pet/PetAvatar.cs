@@ -27,6 +27,7 @@ public class PetAvatar : MonoBehaviour {
     }
 
     private void Update() {
-        _animator.SetBool("Hover", _pet.ID == FocusedPetID || _pet.ID == HoveredPetID);
+        _animator.SetBool("Hover", _pet.ID == HoveredPetID);
+        _animator.SetBool("Active", _pet.ID == FocusedPetID);
     }
 }

@@ -11,6 +11,6 @@ public class ChasePlayerDecision : PluggableDecision
     }
 
     private bool Chase(StateController controller) {
-        return controller.FocusPetID == controller.Pet.ID;
+        return controller.HoverPetID == controller.Pet.ID;
     }
 }

@@ -37,7 +37,7 @@ public class Crosshair : MonoBehaviour {
 
         _currentClickTarget = _aiming ? _hit.transform.gameObject : null;
         if (_aiming) {
-            Pet pet = _currentClickTarget.GetComponent<Pet>();
+            Pet pet = _currentClickTarget.GetComponentInParent<Pet>();
             if (pet != null) {
                 HoveredPetID.SetValue(pet.ID);
             } else {
@@ -45,6 +45,7 @@ public class Crosshair : MonoBehaviour {
             }
         } else {
             HoveredPetID.SetValue(0);
+            FocusedPetID.SetValue(0);
         }
     }
 

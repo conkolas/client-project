@@ -8,7 +8,6 @@ public class LeaveFocusPlayerDecision : PluggableDecision {
         if (!((controller.PlayerGameObject.transform.position - controller.transform.position)
               .magnitude > LeaveFocusDistance)) return false;
 
-        controller.FocusPetID.SetValue(0);
         return true;
     }
 }
