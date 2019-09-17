@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 00000210916FA9C8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001E36DD867A8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -15,122 +15,6 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
+[LOG] Manager::readBank                        : fileversion = 121, compatVersion = 119 (oldest = 44, newest = 121)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004682D9EF5C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA4CAC7050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA4CAC7020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA4CAC7120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA4CAC71E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002108C037818
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Woodpecker_Pecking_on_Tree', format=2, channels=2, frequency=48000, lengthbytes=65440, lengthpcm=265822, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.011230.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004682D9EF5C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA4CAC7050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA4CAC7020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA4CAC7120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA4CAC71E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002108C037818
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='meow big chonk', format=2, channels=2, frequency=48000, lengthbytes=15840, lengthpcm=56474, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.987457.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004682D9EF5C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA4CAC7050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA4CAC7020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA4CAC7120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA4CAC71E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002108C037818
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='meow smol', format=2, channels=2, frequency=48000, lengthbytes=17728, lengthpcm=54858, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.991638.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004682D9EF5C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFA4CAC7050
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFA4CAC7020
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFA4CAC7120
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFA4CAC71E0
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002108C037818
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='meow medium', format=2, channels=2, frequency=48000, lengthbytes=18272, lengthpcm=60678, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.993622.
-[LOG] SystemI::createSound                     : filename = C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] SystemI::createSound                     : setdata soundi = 00000210F68C1BD8 : node = 0000021090E252A0
-[LOG] SystemI::createSound                     : add node to async list : head = 0000021090A94658.  list count = 0
-[LOG] SystemI::createSound                     : filename = C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000210F68C1BD8
-[LOG] SystemI::createSound                     : setdata soundi = 00000210F68C1F38 : node = 0000021090E24760
-[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSound                     :     add node to async list : head = 0000021090A94658.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021090E253B0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Acoustic_Circles', format=2, channels=2, frequency=48000, lengthbytes=1333536, lengthpcm=5105789, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.956909.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 49152, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000210F68C1BD8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000210F68C1F38
-[LOG] SystemI::createSoundInternal             :     Create name='C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 15102464
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 38080
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000021090E24870
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Forest_Wind_Summer', format=2, channels=2, frequency=48000, lengthbytes=2656736, lengthpcm=10306873, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.144897.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000210F68C1F38
-[LOG] SoundI::getSubSound                      : sound 00000210F68C1BD8.  Subsound index 0 / 1
-[LOG] SoundI::getSubSound                      : sound 00000210F68C1F38.  Subsound index 0 / 1
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000210FC7E7EE8
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000210FC7E7EE8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000210FC7E8098
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000210FC7E8098
-[LOG] SoundI::release                          :  (00000210FD354778)
-[LOG] SoundI::release                          :     Woodpecker_Pecking_on_Tree (0000021090A91928)
-[LOG] SoundI::release                          :  (0000021086E47188)
-[LOG] SoundI::release                          :     meow medium (0000021090A927C8)
-[LOG] SoundI::release                          :  (0000021086E48718)
-[LOG] SoundI::release                          :     meow smol (0000021090A949E8)
-[LOG] SoundI::release                          :  (0000021086E489F8)
-[LOG] SoundI::release                          :     meow big chonk (0000021090A922E8)
-[LOG] SoundI::release                          : Forest_Wind_Summer (00000210F68C1F38)
-[LOG] SoundI::release                          :     Forest_Wind_Summer (0000021090A92488)
-[LOG] SoundI::release                          :     Forest_Wind_Summer (00000210FC7E8098)
-[LOG] SoundI::release                          : Acoustic_Circles (00000210F68C1BD8)
-[LOG] SoundI::release                          :     Acoustic_Circles (0000021090A94B88)
-[LOG] SoundI::release                          :     Acoustic_Circles (00000210FC7E7EE8)
