@@ -876,21 +876,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
-        type: 3}
-      propertyPath: m_Name
-      value: PlayGround
-      objectReference: {fileID: 0}
-    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 5588888896229029305, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -955,6 +940,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayGround
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588888896229029309, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3132e6ba48cf34633bb1c8ad5cd5eb57, type: 3}
