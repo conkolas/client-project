@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb9f6e25e65d4e3cb01b5342e00ddb2f, type: 3}
   m_Name: Leave Focus Player Decision
   m_EditorClassIdentifier: 
-  LeaveFocusDistance: 3
+  LeaveFocusDistance: 2

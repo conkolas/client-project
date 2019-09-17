@@ -14,6 +14,7 @@ public class StateController : MonoBehaviour {
 
     [Header("Player")]
     public IntegerVariable FocusPetID;
+    public IntegerVariable HoverPetID;
 
     [Header("Waypoints")]
     public Transform PlayGroundTransform;

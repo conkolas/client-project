@@ -18,10 +18,10 @@ TagManager:
   - Ground
   - Pet
   - PetPointer
-  - 
-  - 
-  - 
-  - 
+  - PetPhoto
+  - JumpButton
+  - SitButton
+  - PetButton
   - 
   - 
   - 
