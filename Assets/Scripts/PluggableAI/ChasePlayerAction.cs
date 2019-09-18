@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditorInternal;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 [CreateAssetMenu(menuName = "Pluggable AI/Actions/Chase Player")]

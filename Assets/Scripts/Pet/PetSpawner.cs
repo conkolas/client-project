@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.AI;
 
 public class PetSpawner : MonoBehaviour {
     public Pet PetPrefab;
