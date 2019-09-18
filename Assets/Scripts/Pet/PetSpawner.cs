@@ -28,4 +28,12 @@ public class PetSpawner : MonoBehaviour {
 
         OnSpawn.Raise();
     }
+
+    public void Clear() {
+        foreach (Pet pet in PetList.Pets) {
+            Destroy(pet.gameObject);
+        }
+
+        PetList.Pets = new Pet[0];
+    }
 }

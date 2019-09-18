@@ -27,6 +27,14 @@ public class PetAvatarManager : MonoBehaviour {
         }
     }
 
+    public void Stop() {
+        _isRunning = false;
+        foreach (var avatar in _avatars) {
+            Destroy(avatar.gameObject);
+            _avatars = new List<PetAvatar>();
+        }
+    }
+
     private void Update() {
         if (!_isRunning) return;
 
