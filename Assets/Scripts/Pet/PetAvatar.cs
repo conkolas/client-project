@@ -1,5 +1,6 @@
 ﻿using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class PetAvatar : MonoBehaviour {
@@ -7,6 +8,7 @@ public class PetAvatar : MonoBehaviour {
     public Image PhotoIcon;
     public IntegerVariable HoveredPetID;
     public IntegerVariable FocusedPetID;
+    public UnityEvent OnHover;
 
     private Animator _animator;
     private Pet _pet;
@@ -26,7 +28,16 @@ public class PetAvatar : MonoBehaviour {
     }
 
     private void Update() {
-        _animator.SetBool("Hover", _pet.ID == HoveredPetID);
+        UpdateHover();
+    }
+
+    private void UpdateHover() {
+        if (Hovered != (_pet.ID == HoveredPetID)) {
+            _animator.SetBool("Hover", _pet.ID == HoveredPetID);
+            if (_pet.ID == HoveredPetID) {
+                OnHover?.Invoke();
+            }
+        }
     }
 
     public void SetPhotoHover(bool state) {

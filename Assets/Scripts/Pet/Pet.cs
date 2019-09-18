@@ -34,6 +34,7 @@ public class Pet : MonoBehaviour {
     [SerializeField] private Vector3 DefaultScale = new Vector3(1f, 1f, 1f);
 
     private NavMeshAgent _agent;
+    private StateController _controller;
 
     public void InitializePet(PetData petData, Texture2D petPhoto) {
         _id = petData.PetID;
@@ -45,6 +46,7 @@ public class Pet : MonoBehaviour {
         _description = petData.Description;
         _photo = petPhoto;
         _agent = GetComponent<NavMeshAgent>();
+        _controller = GetComponent<StateController>();
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
         Material[] mats = MeshRenderer.materials;
@@ -71,6 +73,18 @@ public class Pet : MonoBehaviour {
         }
 
         return petColor;
+    }
+
+    public void JumpAction() {
+        _controller.JumpAction();
+    }
+
+    public void SitAction() {
+        _controller.SitAction();
+    }
+
+    public void PetAction() {
+        _controller.PetAction();
     }
 
     private Vector3 GetPetSize() {

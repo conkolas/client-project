@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class JumpInteraction : MonoBehaviour {
     public float PointerDistance = 5f;
+    public UnityEvent OnClick;
+
     private Camera _camera;
     private bool _hover;
     private PetAvatar _avatar;
@@ -27,6 +30,8 @@ public class JumpInteraction : MonoBehaviour {
         }
 
         if (Input.GetMouseButtonDown(0) && _hover) {
+            _avatar.Pet.JumpAction();
+            OnClick?.Invoke();
         }
     }
 }

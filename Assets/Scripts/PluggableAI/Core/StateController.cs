@@ -1,8 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(NavMeshAgent))]
 public class StateController : MonoBehaviour {
@@ -15,6 +17,13 @@ public class StateController : MonoBehaviour {
     [Header("Player")]
     public IntegerVariable FocusPetID;
     public IntegerVariable HoverPetID;
+
+    [Header("Interactions")]
+    public float SittingDuration = 2f;
+
+    public UnityEvent OnPetAction;
+    public UnityEvent OnSitAction;
+    public UnityEvent OnJumpAction;
 
     [Header("Waypoints")]
     public Transform PlayGroundTransform;
@@ -40,6 +49,7 @@ public class StateController : MonoBehaviour {
     public GameObject PlayerGameObject => _playerGameObject;
 
     private Animator _animator;
+    public Animator Animator => _animator;
 
     public void SetupAI(bool active) {
         _isActive = active;
@@ -85,6 +95,27 @@ public class StateController : MonoBehaviour {
 
         _animator.SetFloat("Speed", _agent.velocity.magnitude / _agent.speed);
         CurrentState.UpdateState(this);
+    }
+
+    public void JumpAction() {
+        _animator.SetTrigger("Jump");
+        OnJumpAction?.Invoke();
+    }
+
+    public void SitAction() {
+        _animator.SetBool("Sit", true);
+        StartCoroutine(StandUpAfterDelay());
+        OnSitAction?.Invoke();
+    }
+
+    public void PetAction() {
+        OnPetAction?.Invoke();
+    }
+
+    private IEnumerator StandUpAfterDelay() {
+        yield return new WaitForSeconds(SittingDuration);
+        Debug.Log("StandUpAfterDelay");
+        _animator.SetBool("Sit", false);
     }
 
     private void OnDrawGizmos() {

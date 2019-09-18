@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PetPhotoHoverDetector : MonoBehaviour {
     public float PointerDistance = 5f;
+    public UnityEvent OnClick;
+
     private PetInfoPanel _infoPanel;
     private Camera _camera;
     private bool _hover;
@@ -29,6 +32,7 @@ public class PetPhotoHoverDetector : MonoBehaviour {
 
         if (Input.GetMouseButtonDown(0) && _hover) {
             _infoPanel.OpenPanel(_avatar.Pet.ID);
+            OnClick?.Invoke();
         }
     }
 }

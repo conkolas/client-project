@@ -1,11 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 public class SitDownInteraction : MonoBehaviour {
     public float PointerDistance = 5f;
-    public PetInfoPanel InfoPanel;
+    public UnityEvent OnClick;
     private Camera _camera;
     private bool _hover;
     private PetAvatar _avatar;
@@ -28,6 +29,8 @@ public class SitDownInteraction : MonoBehaviour {
         }
 
         if (Input.GetMouseButtonDown(0) && _hover) {
+            _avatar.Pet.SitAction();
+            OnClick?.Invoke();
         }
     }
 }
