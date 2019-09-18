@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public class SitDownInteraction : MonoBehaviour {
+    public float PointerDistance = 5f;
     public PetInfoPanel InfoPanel;
     private Camera _camera;
     private bool _hover;
@@ -16,7 +17,8 @@ public class SitDownInteraction : MonoBehaviour {
     }
 
     void Update() {
-        if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out _hit, 100f,
+        if (!_avatar.Hovered) return;
+        if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out _hit, PointerDistance,
             LayerMask.GetMask("SitButton"))) {
             _avatar.SetSitButtonHover(true);
             _hover = true;

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PetInteraction : MonoBehaviour {
+    public float PointerDistance = 5f;
+
     private Camera _camera;
     private bool _hover;
     private PetAvatar _avatar;
@@ -14,7 +16,9 @@ public class PetInteraction : MonoBehaviour {
     }
 
     void Update() {
-        if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out _hit, 100f,
+        if (!_avatar.Hovered) return;
+
+        if (Physics.Raycast(_camera.transform.position, _camera.transform.forward, out _hit, PointerDistance,
             LayerMask.GetMask("PetButton"))) {
             _avatar.SetPetButtonHover(true);
             _hover = true;

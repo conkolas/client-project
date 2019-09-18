@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayGround
   - Pet
+  - InfoPanel
   layers:
   - Default
   - TransparentFX

@@ -31,13 +31,13 @@ public class PetInfoPanel : MonoBehaviour {
     }
 
     public void ClosePanel() {
-        Debug.Log("ClosePanel");
         _animator.SetBool("Active", false);
         Controller.UnlockPlayer();
     }
 
     private void Start() {
         _animator = GetComponent<Animator>();
+        Controller.UnlockPlayer();
     }
 
 

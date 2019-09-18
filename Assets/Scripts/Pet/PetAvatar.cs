@@ -11,6 +11,7 @@ public class PetAvatar : MonoBehaviour {
     private Animator _animator;
     private Pet _pet;
     public Pet Pet => _pet;
+    public bool Hovered => _animator != null && _animator.GetBool("Hover");
 
     public void Initialize(Pet pet) {
         _pet = pet;
