@@ -1,0 +1,1082 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8565711775607728872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-8075704940004068069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &-7950556020018915595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-7647357393887644853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/Medium dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/Medium dog
+  guid: afac4d751003ca4e8cb2748e712919ab
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1763802857418954877}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 324
+--- !u!114 &-6540523639003720155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &-6202456847069305234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds origional/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6159492444200251413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-6124847363456798510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Footsteps
+  guid: 6745baf94eafa347996b20a320181adc
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 621
+--- !u!114 &-5868844440936924034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds dog
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds dog
+  guid: 49546918d7dc144180848f8ced70728e
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4653531391842755419}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &-5048342594315120469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/small dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/small dog
+  guid: 8867dd19adb25342bbff24326618369e
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 663
+--- !u!114 &-4879995848327481692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds cat
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds cat
+  guid: 82427ed5a1d7cc429d3606f47ccffa5b
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4109206759623179966}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &-4747215526359792004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/Big dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/Big dog
+  guid: de8956b7daf5d943958e2255c7cff8ce
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 639
+--- !u!114 &-4622644611174457511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds origional
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds origional
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6202456847069305234}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &-4348838685883307198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds cat
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds cat
+  guid: 82427ed5a1d7cc429d3606f47ccffa5b
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -796147501631144578}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &-4153013016915419324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
+    effects/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637039806120000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 15140640
+  Exists: 1
+--- !u!114 &-3802573498451118161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/Small cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/Small cat
+  guid: 7af2d412f928b245b4ec19ba847d1632
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1142
+--- !u!114 &-3530265869919116036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &-3389928827720458461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/medium cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/medium cat
+  guid: feb1a185c1c1d1478c5e6399a91da70c
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1264
+--- !u!114 &-3142866093044124398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/small dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/small dog
+  guid: 8867dd19adb25342bbff24326618369e
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 663
+--- !u!114 &-3045136055337889463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds dog
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds dog
+  guid: 49546918d7dc144180848f8ced70728e
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2441163426491912254}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &-2452643009501465466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/Big dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/Big dog
+  guid: de8956b7daf5d943958e2255c7cff8ce
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 639
+--- !u!114 &-2302871928063335775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637043196918573913
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 15126816
+  Exists: 1
+--- !u!114 &-2166682776473860033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds origional/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-2048420373776887240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
+--- !u!114 &-1972133392150021665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/Gliph/Documents/client-project/Assets/Sound/Fmod/Sound effects/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637043196918613808
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1222
+  Exists: 1
+--- !u!114 &-1584274811654793294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dog sounds/Medium dog
+  m_EditorClassIdentifier: 
+  Path: event:/Dog sounds/Medium dog
+  guid: afac4d751003ca4e8cb2748e712919ab
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6540523639003720155}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 324
+--- !u!114 &-1364409606939685651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/Big cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/Big cat
+  guid: a2a5ca98b2c3e4418576693a0751c351
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1176
+--- !u!114 &-1276232092334827061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-885810487368943421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
+    effects/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637039806120000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1302
+  Exists: 1
+--- !u!114 &-796147501631144578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds cat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-532900610634788900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds dog/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-80643401471309275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds dog
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds dog
+  guid: 49546918d7dc144180848f8ced70728e
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -532900610634788900}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 2660402486580914733}
+  - {fileID: 7471959193611770255}
+  EditorEvents:
+  - {fileID: -6124847363456798510}
+  - {fileID: 4457820626192468652}
+  - {fileID: -5048342594315120469}
+  - {fileID: -1364409606939685651}
+  - {fileID: -7647357393887644853}
+  - {fileID: -2452643009501465466}
+  - {fileID: 7142258489170275815}
+  - {fileID: 119456521006480281}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 7471959193611770255}
+  StringsBanks:
+  - {fileID: 2660402486580914733}
+  stringsBankWriteTime: 637045163370000000
+  cacheVersion: 3
+--- !u!114 &119456521006480281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds original
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds original
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7300965788285947003}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &485003014715274224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds cat
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds cat
+  guid: 82427ed5a1d7cc429d3606f47ccffa5b
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 6651142961924152132}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &693459901988711907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Interaction sounds/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Interaction sounds/Footsteps
+  guid: 6745baf94eafa347996b20a320181adc
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 740
+--- !u!114 &1175499654943920625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/Big cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/Big cat
+  guid: a2a5ca98b2c3e4418576693a0751c351
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1176
+--- !u!114 &1763802857418954877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &2441163426491912254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds dog/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &2660402486580914733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
+    effects/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637045163370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1222
+  Exists: 1
+--- !u!114 &2994745909635358594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds origional
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds origional
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks: []
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2166682776473860033}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &3045705242276202692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
+--- !u!114 &4109206759623179966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds cat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &4212829790630192185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds origional/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &4457820626192468652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/Small cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/Small cat
+  guid: 7af2d412f928b245b4ec19ba847d1632
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1142
+--- !u!114 &4653531391842755419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds dog/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &6651142961924152132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds cat/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &7142258489170275815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Cat sounds/medium cat
+  m_EditorClassIdentifier: 
+  Path: event:/Cat sounds/medium cat
+  guid: feb1a185c1c1d1478c5e6399a91da70c
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1264
+--- !u!114 &7300965788285947003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &7471959193611770255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
+    effects/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637045163370000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 15126784
+  Exists: 1
+--- !u!114 &8378607466304977323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds original
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds original
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks:
+  - {fileID: -2302871928063335775}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -7950556020018915595}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
+--- !u!114 &9036181173053056932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds origional
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds origional
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks:
+  - {fileID: -4153013016915419324}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4212829790630192185}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400

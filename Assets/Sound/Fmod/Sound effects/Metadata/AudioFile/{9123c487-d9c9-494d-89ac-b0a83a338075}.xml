@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{9123c487-d9c9-494d-89ac-b0a83a338075}">
+		<property name="assetPath">
+			<value>Small_Stream_Flowing.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>78.602448979591841</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5a3fa66d-e474-4531-aae4-f4dd62518cd5}</destination>
+		</relationship>
+	</object>
+</objects>

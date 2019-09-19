@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PlayGround
+  - Pet
+  - InfoPanel
+  - Crosshair
   layers:
   - Default
   - TransparentFX
@@ -13,13 +17,13 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Pet
+  - PetPointer
+  - PetPhoto
+  - JumpButton
+  - SitButton
+  - PetButton
   - 
   - 
   - 

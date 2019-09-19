@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6a66b1bf-a001-467e-8c0a-73b34e691d28}">
+		<property name="assetPath">
+			<value>Small_Dog_Wimper_Series.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>44.486530612244898</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5a3fa66d-e474-4531-aae4-f4dd62518cd5}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{ebd1b291-6a4c-4029-832f-5984ea91a05a}">
+		<property name="name">
+			<value>dog only</value>
+		</property>
+		<relationship name="folder">
+			<destination>{ef2705f2-c2e9-4826-8445-f11e6cafe8dd}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7628b740-9a3b-43f1-baa7-583160d1ce0d}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7628b740-9a3b-43f1-baa7-583160d1ce0d}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

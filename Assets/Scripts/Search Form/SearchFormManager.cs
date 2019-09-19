@@ -1,17 +1,14 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class SearchFormManager : MonoBehaviour {
     public TMP_InputField PostalCodeInput;
-    public TMP_Dropdown RadiusDropdown;
     public Toggle DogToggle;
     public Toggle CatToggle;
     public Button SearchButton;
     public TMP_Text EmptySearchMessage;
-    public PetListFetcher PetListFetcher;
+    public PetDataListFetcher PetDataListFetcher;
 
     [Header("Pagination")]
     public int EndIndex = 10;
@@ -21,49 +18,84 @@ public class SearchFormManager : MonoBehaviour {
     public GameEvent OnSearchError;
     public GameEvent OnSearchSuccess;
 
+    private Animator _animator;
+
+    private TMP_Text _searchButtonText;
+
+    private SearchRanges _currentRange;
+
+    public void SetCurrentRange(SearchRanges range) { _currentRange = range; }
+
+    /*
+     * Applies values to PetListFetch from search form fields and fetches new data
+     */
     public void Search() {
+        _searchButtonText = SearchButton.GetComponentInChildren<TMP_Text>();
+        _searchButtonText.text = "Loading";
+        SearchButton.interactable = false;
         EmptySearchMessage.gameObject.active = false;
 
-        PetListFetcher.PostCode = PostalCodeInput.text;
-        PetListFetcher.EndNumber = EndIndex;
-        PetListFetcher.StartNumber = StartIndex;
+        PetDataListFetcher.PostCode = PostalCodeInput.text;
+        PetDataListFetcher.EndNumber = EndIndex;
+        PetDataListFetcher.StartNumber = StartIndex;
+        PetDataListFetcher.Range = _currentRange;
 
-        switch (RadiusDropdown.value) {
-            case 0:
-                PetListFetcher.Range = SearchRanges.TWENTY_FIVE;
-                break;
-            case 1:
-                PetListFetcher.Range = SearchRanges.FIFTY;
-                break;
-            case 2:
-                PetListFetcher.Range = SearchRanges.HUNDRED;
-                break;
-            case 3:
-                PetListFetcher.Range = SearchRanges.HUNDRED_FIFTY;
-                break;
-            case 4:
-                PetListFetcher.Range = SearchRanges.TWO_HUNDREDS;
-                break;
-        }
 
         if (DogToggle.isOn && !CatToggle.isOn) {
-            PetListFetcher.Species = PetSpecies.DOG;
+            PetDataListFetcher.Species = PetSpecies.DOG;
         } else {
-            PetListFetcher.Species = PetSpecies.CAT;
+            PetDataListFetcher.Species = PetSpecies.CAT;
         }
 
-        PetListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
+        PetDataListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
     }
 
+    public void OpenLink() {
+        int radius = 25;
+        if (_currentRange == SearchRanges.TWENTY_FIVE)
+            radius = 25;
+        else if (_currentRange == SearchRanges.FIFTY) {
+            radius = 50;
+        } else if (_currentRange == SearchRanges.HUNDRED) {
+            radius = 100;
+        }  else if (_currentRange == SearchRanges.HUNDRED_FIFTY) {
+            radius = 150;
+        } else if (_currentRange == SearchRanges.TWO_HUNDREDS) {
+            radius = 200;
+        }
+
+        string species = DogToggle.isOn && !CatToggle.isOn ? "dog" : "cat";
+        string url =
+            $"https://theshelterpetproject.org/pet-search/?zip={PetDataListFetcher.PostCode}&radius={radius}&species={species}&resultPage=1";
+        Application.OpenURL(url);
+    }
+
+    public void ShowSearchForm() {
+        _animator.SetBool("Active", true);
+    }
+
+    public void HideSearchForm() {
+        _animator.SetBool("Active", false);
+    }
+
+    private void Start() { _animator = GetComponent<Animator>(); }
+
+    /*
+     * Toggles search button active when postal code is sufficient length
+     */
     public void Validate() {
         SearchButton.interactable = PostalCodeInput.text.Length > 3;
     }
 
     private void OnSuccessHandler() {
+        _searchButtonText.text = "Search";
+        SearchButton.interactable = true;
         OnSearchSuccess.Raise();
     }
 
     private void OnErrorHandler() {
+        _searchButtonText.text = "Search";
+        SearchButton.interactable = true;
         OnSearchError.Raise();
     }
 }
