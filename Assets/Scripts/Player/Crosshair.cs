@@ -1,10 +1,12 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class Crosshair : MonoBehaviour {
     public IntegerVariable FocusedPetID;
     public IntegerVariable HoveredPetID;
     public PetInfoPanel PetInfoPanel;
     public float ActiveDistance = 2f;
+    public float LooseFocusDelay = 2f;
 
     private Ray _ray;
     private RaycastHit _hoverHit;

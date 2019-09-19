@@ -52,6 +52,26 @@ public class SearchFormManager : MonoBehaviour {
         PetDataListFetcher.Fetch(OnSuccessHandler, OnErrorHandler);
     }
 
+    public void OpenLink() {
+        int radius = 25;
+        if (RadiusDropdown.value == 0)
+            radius = 25;
+        else if (RadiusDropdown.value == 1) {
+            radius = 50;
+        } else if (RadiusDropdown.value == 2) {
+            radius = 100;
+        } else if (RadiusDropdown.value == 3) {
+            radius = 150;
+        } else if (RadiusDropdown.value == 4) {
+            radius = 200;
+        }
+
+        string species = DogToggle.isOn && !CatToggle.isOn ? "dog" : "cat";
+        string url =
+            $"https://theshelterpetproject.org/pet-search/?zip={PetDataListFetcher.PostCode}&radius={radius}&species={species}&resultPage=1";
+        Application.OpenURL(url);
+    }
+
     public void ShowSearchForm() {
         _animator.SetBool("Active", true);
     }

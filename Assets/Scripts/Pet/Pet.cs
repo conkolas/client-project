@@ -26,7 +26,7 @@ public class Pet : MonoBehaviour {
     private Texture2D _photo { get; set; }
     public Texture2D Photo => _photo;
 
-    public SkinnedMeshRenderer MeshRenderer;
+    public MeshRenderer MeshRenderer;
 
     [SerializeField] private Material DefaultMaterial;
     [SerializeField] private Color DefaultColor = UnityEngine.Color.gray;
@@ -49,7 +49,7 @@ public class Pet : MonoBehaviour {
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
         Material[] mats = MeshRenderer.materials;
-        mats[0] = petMaterial;
+        mats[2] = petMaterial;
         MeshRenderer.materials = mats;
         transform.localScale = GetPetSize();
         _agent.speed = transform.localScale.x;
@@ -62,7 +62,7 @@ public class Pet : MonoBehaviour {
         if (_color.Contains("Black")) {
             petColor = UnityEngine.Color.black;
         } else if (_color.Contains("White")) {
-            petColor = UnityEngine.Color.white;
+            petColor = new Color(210, 210, 210, 1);
         } else if (_color.Contains("Gray")) {
             petColor = UnityEngine.Color.gray;
         } else if (_color.Contains("Yellow") || _color.Contains("Gold")) {

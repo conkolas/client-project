@@ -112,7 +112,6 @@ public class StateController : MonoBehaviour {
 
     private IEnumerator StandUpAfterDelay() {
         yield return new WaitForSeconds(SittingDuration);
-        Debug.Log("StandUpAfterDelay");
         _animator.SetBool("Sit", false);
     }
 

@@ -19,7 +19,7 @@ public class ChasePlayerAction : PluggableAction {
     private void ContinueChase(NavMeshAgent agent, StateController controller) {
         if (!agent.isStopped) {
             agent.destination = controller.PlayerGameObject.transform.position;
-            agent.Resume();
+            agent.isStopped = false;
         }
     }
 
@@ -28,12 +28,12 @@ public class ChasePlayerAction : PluggableAction {
             if (!agent.isStopped) {
                 agent.destination = controller.transform.position;
                 agent.velocity = Vector3.zero;
-                agent.Stop();
+                agent.isStopped = true;
             }
 
             LookAtPlayer(controller);
         } else {
-            agent.Resume();
+            agent.isStopped = false;
         }
     }
 

@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
     public GameEvent OnGameStart;
     public GameObject RestartButton;
     public FirstPersonController PlayerController;
+    public Animator FinalStepAnimator;
 
     private bool _activeWorld;
     private bool _activeEscape;
@@ -22,6 +23,15 @@ public class GameManager : MonoBehaviour {
             PlayerController.UnlockPlayer();;
             RestartButton.SetActive(false);
         }
+    }
+
+    public void OnGameEnd() {
+        PlayerController.LockPlayer();
+        FinalStepAnimator.SetBool("Active", true);
+    }
+
+    public void CloseFinalScreen() {
+        FinalStepAnimator.SetBool("Active", false);
     }
 
     private void Start()

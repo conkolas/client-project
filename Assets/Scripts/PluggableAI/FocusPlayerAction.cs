@@ -15,7 +15,7 @@ public class FocusPlayerAction : PluggableAction {
         if (!agent.isStopped) {
             agent.destination = controller.transform.position;
             agent.velocity = Vector3.zero;
-            agent.Stop();
+            agent.isStopped = true;
         }
 
         Quaternion rotation = Quaternion.LookRotation(

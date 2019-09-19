@@ -47,14 +47,15 @@ public class WonderAction : PluggableAction {
     private void DoSitting(StateController controller, NavMeshAgent agent) {
         _sittingTime += Time.deltaTime;
         agent.velocity = Vector3.zero;
-        agent.Stop();
+        agent.isStopped = true;
     }
 
     private void ContinueWonder(StateController controller, NavMeshAgent agent) {
         _curentWaypointTime += Time.deltaTime;
 
         agent.destination = controller.Waypoints[controller.NextWaypoint];
-        agent.Resume();
+        agent.isStopped = false;
+
 
         if (agent.remainingDistance <= agent.stoppingDistance && !agent.pathPending || _curentWaypointTime > MaxTimeToDestination) {
             controller.SetNextWaypoint((controller.NextWaypoint + Random.Range(1, controller.Waypoints.Count)) % controller.Waypoints.Count);
