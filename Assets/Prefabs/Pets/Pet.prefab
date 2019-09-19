@@ -42,7 +42,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.8, y: 1.19, z: 1.12}
+  m_Size: {x: 0.59, y: 1.1, z: 1.12}
   m_Center: {x: 0, y: 0.54, z: 0}
 --- !u!1 &6639848210501656350
 GameObject:
@@ -59,6 +59,7 @@ GameObject:
   - component: {fileID: 8516922825390727420}
   - component: {fileID: 4808167865178727398}
   - component: {fileID: 6370705897023518593}
+  - component: {fileID: -7248659142065416275}
   m_Layer: 9
   m_Name: Pet
   m_TagString: Untagged
@@ -206,6 +207,24 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-7248659142065416275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639848210501656350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b118e02f28ef34501b0a5b2a6bb66044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SmallPetSound: {fileID: 0}
+  MediumPetSound: {fileID: 0}
+  LargePetSound: {fileID: 0}
+  MinTimeInterval: 10
+  MaxTimeInterval: 20
+  Alterate: 0
 --- !u!1001 &4009532431019869172
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -291,6 +291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93756484}
   - component: {fileID: 93756483}
+  - component: {fileID: 93756482}
   m_Layer: 0
   m_Name: UICamera
   m_TagString: MainCamera
@@ -298,6 +299,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &93756482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93756481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!20 &93756483
 Camera:
   m_ObjectHideFlags: 0
@@ -2429,6 +2443,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08d89bfb10b94094ebf0eb68e763762e, type: 3}
+--- !u!1 &1218017307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7685869981369960004, guid: bfa17e7b1cafb4f768a2314072d93d82,
+    type: 3}
+  m_PrefabInstance: {fileID: 7685869981862347078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1249470880
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2523,6 +2543,39 @@ MonoBehaviour:
       - m_Target: {fileID: 1278779696}
         m_MethodName: OnGameEnd
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1218017307}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: ba0d28d2500304f0bb27bc6714aba112, type: 2}
+        m_MethodName: SetValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 9ae0b7b946a3a473cb51facecb6ca156, type: 2}
+        m_MethodName: SetValue
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2775,7 +2828,7 @@ MonoBehaviour:
   PetDataList: {fileID: 11400000, guid: 49611297943a040cea46d88e726ec8e8, type: 2}
   OnSpawn: {fileID: 11400000, guid: acfd8e44e2264488fb714242f5e35f45, type: 2}
   PlayerTransform: {fileID: 560031971}
-  SpawnCircleRadius: 4
+  SpawnCircleRadius: 8
 --- !u!4 &1285915347
 Transform:
   m_ObjectHideFlags: 0
@@ -3971,6 +4024,11 @@ PrefabInstance:
       propertyPath: FinalStepAnimator
       value: 
       objectReference: {fileID: 54465970}
+    - target: {fileID: 4901453230422995264, guid: 0169387a8ec8f468fb8daee73cc01997,
+        type: 3}
+      propertyPath: Crosshair
+      value: 
+      objectReference: {fileID: 1218017307}
     - target: {fileID: 4901453230422995292, guid: 0169387a8ec8f468fb8daee73cc01997,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4029,7 +4087,7 @@ PrefabInstance:
     - target: {fileID: 4901453230422995294, guid: 0169387a8ec8f468fb8daee73cc01997,
         type: 3}
       propertyPath: Response.m_PersistentCalls.m_Calls.Array.size
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4901453230422995294, guid: 0169387a8ec8f468fb8daee73cc01997,
         type: 3}
@@ -4110,11 +4168,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[7].m_Target
       value: 
-      objectReference: {fileID: 1278779696}
+      objectReference: {fileID: 1218017307}
     - target: {fileID: 4901453230422995294, guid: 0169387a8ec8f468fb8daee73cc01997,
         type: 3}
       propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
-      value: SetIsActiveWorld
+      value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4901453230422995294, guid: 0169387a8ec8f468fb8daee73cc01997,
         type: 3}

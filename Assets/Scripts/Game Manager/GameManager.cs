@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour {
     public IntegerVariable HoveredPetID;
     public GameEvent OnGameStart;
     public GameObject RestartButton;
+    public GameObject Crosshair;
     public FirstPersonController PlayerController;
     public Animator FinalStepAnimator;
 
@@ -18,9 +19,13 @@ public class GameManager : MonoBehaviour {
     public void SetIsActiveWorld(bool state) {
         _activeWorld = state;
         if (!state) {
+            Crosshair.SetActive(false);
+            FocusedPetID.SetValue(0);
+            HoveredPetID.SetValue(0);
             PlayerController.LockPlayer();
         } else {
             PlayerController.UnlockPlayer();;
+            Crosshair.SetActive(true);
             RestartButton.SetActive(false);
         }
     }

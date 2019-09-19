@@ -34,6 +34,7 @@ public class Pet : MonoBehaviour {
 
     private NavMeshAgent _agent;
     private StateController _controller;
+    private PetSoundEmitter _soundEmitter;
 
     public void InitializePet(PetData petData, Texture2D petPhoto) {
         _id = petData.PetID;
@@ -46,6 +47,7 @@ public class Pet : MonoBehaviour {
         _photo = petPhoto;
         _agent = GetComponent<NavMeshAgent>();
         _controller = GetComponent<StateController>();
+        _soundEmitter = GetComponent<PetSoundEmitter>();
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
         Material[] mats = MeshRenderer.materials;
@@ -75,15 +77,18 @@ public class Pet : MonoBehaviour {
     }
 
     public void JumpAction() {
-        _controller.JumpAction();
+//        _controller.JumpAction();
+        _soundEmitter.PlaySound();
     }
 
     public void SitAction() {
-        _controller.SitAction();
+//        _controller.SitAction();
+        _soundEmitter.PlaySound();
     }
 
     public void PetAction() {
         _controller.PetAction();
+        _soundEmitter.PlaySound();
     }
 
     private Vector3 GetPetSize() {
