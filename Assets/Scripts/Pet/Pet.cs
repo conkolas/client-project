@@ -26,7 +26,7 @@ public class Pet : MonoBehaviour {
     private Texture2D _photo { get; set; }
     public Texture2D Photo => _photo;
 
-    public MeshRenderer MeshRenderer;
+    public SkinnedMeshRenderer MeshRenderer;
 
     [SerializeField] private Material DefaultMaterial;
     [SerializeField] private Color DefaultColor = UnityEngine.Color.gray;
@@ -49,7 +49,7 @@ public class Pet : MonoBehaviour {
 
         Material petMaterial = new Material(DefaultMaterial.shader) {color = GetPetColor()};
         Material[] mats = MeshRenderer.materials;
-        mats[2] = petMaterial;
+        mats[0] = petMaterial;
         MeshRenderer.materials = mats;
         transform.localScale = GetPetSize();
         _agent.speed = transform.localScale.x;

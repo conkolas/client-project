@@ -21,10 +21,14 @@ public class SearchFormManager : MonoBehaviour {
 
     private Animator _animator;
 
+    private TMP_Text _searchButtonText;
     /*
      * Applies values to PetListFetch from search form fields and fetches new data
      */
     public void Search() {
+        _searchButtonText = SearchButton.GetComponentInChildren<TMP_Text>();
+        _searchButtonText.text = "Loading";
+        SearchButton.interactable = false;
         EmptySearchMessage.gameObject.active = false;
 
         PetDataListFetcher.PostCode = PostalCodeInput.text;
@@ -59,10 +63,8 @@ public class SearchFormManager : MonoBehaviour {
         else if (RadiusDropdown.value == 1) {
             radius = 50;
         } else if (RadiusDropdown.value == 2) {
-            radius = 100;
-        } else if (RadiusDropdown.value == 3) {
             radius = 150;
-        } else if (RadiusDropdown.value == 4) {
+        } else if (RadiusDropdown.value == 3) {
             radius = 200;
         }
 
@@ -90,10 +92,14 @@ public class SearchFormManager : MonoBehaviour {
     }
 
     private void OnSuccessHandler() {
+        _searchButtonText.text = "Search";
+        SearchButton.interactable = true;
         OnSearchSuccess.Raise();
     }
 
     private void OnErrorHandler() {
+        _searchButtonText.text = "Search";
+        SearchButton.interactable = true;
         OnSearchError.Raise();
     }
 }

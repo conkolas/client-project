@@ -190,7 +190,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_JumpSpeed
-      value: 5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_FootstepEvent
+      value: event:/Interaction sounds/Footsteps
       objectReference: {fileID: 0}
     - target: {fileID: 5400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Mass
@@ -2729,6 +2733,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PetPrefab: {fileID: 8516922825390727420, guid: d2f171f88a45743fa93d0f52aaa27112,
     type: 3}
+  DogPetPrefab: {fileID: 7400592520841577446, guid: 744d45f2ec9e84b9f8a415206ce9af6a,
+    type: 3}
+  CatPetPrefab: {fileID: 7857384909688923418, guid: cce73b129ee1e4843b393ea3eb4e2d78,
+    type: 3}
   PetList: {fileID: 11400000, guid: e752853eeb36b409c88608f2df00fd12, type: 2}
   PetDataList: {fileID: 11400000, guid: 49611297943a040cea46d88e726ec8e8, type: 2}
   OnSpawn: {fileID: 11400000, guid: acfd8e44e2264488fb714242f5e35f45, type: 2}
@@ -4254,6 +4262,11 @@ PrefabInstance:
       propertyPath: Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 637610334}
+    - target: {fileID: 4901453230422995265, guid: 0169387a8ec8f468fb8daee73cc01997,
+        type: 3}
+      propertyPath: Event
+      value: event:/Background sounds/Ambient sounds original
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0169387a8ec8f468fb8daee73cc01997, type: 3}
 --- !u!1001 &7416348398193623120

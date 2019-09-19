@@ -2,6 +2,8 @@
 
 public class PetSpawner : MonoBehaviour {
     public Pet PetPrefab;
+    public Pet DogPetPrefab;
+    public Pet CatPetPrefab;
     public PetList PetList;
     public PetDataList PetDataList;
     public GameEvent OnSpawn;
@@ -19,10 +21,10 @@ public class PetSpawner : MonoBehaviour {
             Quaternion rotation = Quaternion.AngleAxis(i * angle, Vector3.up);
             Vector3 direction = rotation * Vector3.forward;
             Vector3 position = PlayerTransform.position + direction * SpawnCircleRadius;
+            Pet prefab = PetDataList.Pets[i].Species == "Dog" ? DogPetPrefab : CatPetPrefab;
+            Pet petGo = Instantiate(prefab, position, rotation, transform);
 
-            Pet petGo = Instantiate(PetPrefab, position, rotation, transform);
             petGo.InitializePet(PetDataList.Pets[i], PetDataList.PhotoTextures[i]);
-
             PetList.Pets[i] = petGo;
         }
 

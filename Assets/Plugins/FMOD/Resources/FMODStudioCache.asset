@@ -1,5 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8565711775607728872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 0
 --- !u!114 &-8075704940004068069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,7 +71,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: -8075704940004068069}
+  - {fileID: 1763802857418954877}
   MinDistance: 1
   MaxDistance: 20
   Length: 324
@@ -127,11 +144,11 @@ MonoBehaviour:
   - {fileID: 7471959193611770255}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 740
+  Length: 621
 --- !u!114 &-5868844440936924034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -549,6 +566,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1176
+--- !u!114 &-1276232092334827061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-885810487368943421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -650,16 +684,38 @@ MonoBehaviour:
   - {fileID: -7647357393887644853}
   - {fileID: -2452643009501465466}
   - {fileID: 7142258489170275815}
-  - {fileID: -3045136055337889463}
-  - {fileID: -4879995848327481692}
-  - {fileID: -4622644611174457511}
+  - {fileID: 119456521006480281}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7471959193611770255}
   StringsBanks:
   - {fileID: 2660402486580914733}
-  stringsBankWriteTime: 637039806120000000
+  stringsBankWriteTime: 637045163370000000
   cacheVersion: 3
+--- !u!114 &119456521006480281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Background sounds/Ambient sounds original
+  m_EditorClassIdentifier: 
+  Path: event:/Background sounds/Ambient sounds original
+  guid: 8c0c8258812ec8478d76bde4eb090744
+  Banks:
+  - {fileID: 7471959193611770255}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 7300965788285947003}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 96400
 --- !u!114 &485003014715274224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -729,6 +785,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1176
+--- !u!114 &1763802857418954877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Medium dog/Interaction
+  m_EditorClassIdentifier: 
+  Name: Interaction
+  Min: 0
+  Max: 1
+  Default: 1
+  Exists: 1
 --- !u!114 &2441163426491912254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,11 +834,11 @@ MonoBehaviour:
   Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
     effects/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637039806120000000
+  lastModified: 637045163370000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1302
+    Value: 1222
   Exists: 1
 --- !u!114 &2994745909635358594
 MonoBehaviour:
@@ -921,6 +994,23 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1264
+--- !u!114 &7300965788285947003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Ambient sounds original/Type
+  m_EditorClassIdentifier: 
+  Name: Type
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7471959193611770255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -936,11 +1026,11 @@ MonoBehaviour:
   Path: /Users/ai/Documents/University/2.1/client-project/Assets/Sound/Fmod/Sound
     effects/Build/Desktop/Master.bank
   SubDir: 
-  lastModified: 637039806120000000
+  lastModified: 637045163370000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 15140640
+    Value: 15126784
   Exists: 1
 --- !u!114 &8378607466304977323
 MonoBehaviour:
