@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class SearchFormManager : MonoBehaviour {
     public TMP_InputField PostalCodeInput;
-    public TMP_Dropdown RadiusDropdown;
     public Toggle DogToggle;
     public Toggle CatToggle;
     public Button SearchButton;
@@ -22,6 +21,11 @@ public class SearchFormManager : MonoBehaviour {
     private Animator _animator;
 
     private TMP_Text _searchButtonText;
+
+    private SearchRanges _currentRange;
+
+    public void SetCurrentRange(SearchRanges range) { _currentRange = range; }
+
     /*
      * Applies values to PetListFetch from search form fields and fetches new data
      */
@@ -34,18 +38,8 @@ public class SearchFormManager : MonoBehaviour {
         PetDataListFetcher.PostCode = PostalCodeInput.text;
         PetDataListFetcher.EndNumber = EndIndex;
         PetDataListFetcher.StartNumber = StartIndex;
+        PetDataListFetcher.Range = _currentRange;
 
-        if (RadiusDropdown.value == 0)
-            PetDataListFetcher.Range = SearchRanges.TWENTY_FIVE;
-        else if (RadiusDropdown.value == 1) {
-            PetDataListFetcher.Range = SearchRanges.FIFTY;
-        } else if (RadiusDropdown.value == 2) {
-            PetDataListFetcher.Range = SearchRanges.HUNDRED;
-        } else if (RadiusDropdown.value == 3) {
-            PetDataListFetcher.Range = SearchRanges.HUNDRED_FIFTY;
-        } else if (RadiusDropdown.value == 4) {
-            PetDataListFetcher.Range = SearchRanges.TWO_HUNDREDS;
-        }
 
         if (DogToggle.isOn && !CatToggle.isOn) {
             PetDataListFetcher.Species = PetSpecies.DOG;
@@ -58,13 +52,15 @@ public class SearchFormManager : MonoBehaviour {
 
     public void OpenLink() {
         int radius = 25;
-        if (RadiusDropdown.value == 0)
+        if (_currentRange == SearchRanges.TWENTY_FIVE)
             radius = 25;
-        else if (RadiusDropdown.value == 1) {
+        else if (_currentRange == SearchRanges.FIFTY) {
             radius = 50;
-        } else if (RadiusDropdown.value == 2) {
+        } else if (_currentRange == SearchRanges.HUNDRED) {
+            radius = 100;
+        }  else if (_currentRange == SearchRanges.HUNDRED_FIFTY) {
             radius = 150;
-        } else if (RadiusDropdown.value == 3) {
+        } else if (_currentRange == SearchRanges.TWO_HUNDREDS) {
             radius = 200;
         }
 
